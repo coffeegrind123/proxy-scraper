@@ -1,0 +1,58 @@
+name: twitch list
+
+# Forks that only need the Twitch list: instead of a full scan of their own, take the hourly list the upstream
+# repository publishes, run just the Twitch check on it from here and publish the result to the twitch-list
+# branch (twitch.json with twitch_country, twitch.txt). Upstream publishes the same in works-with/ itself.
+
+on:
+  schedule:
+    - cron: "37 * * * *"     # 20 minutes after upstream's hourly run starts
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: twitch-list
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.repository != 'maximilianfeix/proxy-scraper'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write        # to push to the twitch-list branch
+    env:
+      SOURCE_URL: https://raw.githubusercontent.com/maximilianfeix/proxy-scraper/proxy-list/proxies.json
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: "3.13"
+          cache: pip
+      - run: pip install --require-hashes -r .github/requirements/run.txt
+
+      - name: Download the upstream list
+        run: |
+          mkdir -p results/upstream
+          curl -fsSL --retry 3 --retry-all-errors -o results/upstream/proxies.json "$SOURCE_URL"
+          python -c "import json,sys; rows=json.load(open('results/upstream/proxies.json')); assert isinstance(rows, list) and rows, 'empty list'; print(len(rows), 'proxies')"
+
+      - name: Check which ones Twitch lets play a stream
+        run: python -m proxyscraper.twitch results/upstream --out public
+
+      - name: Publish to the twitch-list branch
+        working-directory: public
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          count=$(python -c "import json; print(len(json.load(open('twitch.json'))))")
+          if [ "$count" -eq 0 ]; then echo "::warning::no proxy got through to Twitch – the old list stays"; exit 0; fi
+          git init -q -b twitch-list
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Twitch list of $(date -u +'%Y-%m-%d %H:%M UTC'): $count proxies"
+          # a single commit that gets replaced every time – the history doesn't grow
+          git push -q -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" twitch-list
