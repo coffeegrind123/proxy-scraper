@@ -47,6 +47,13 @@ jobs:
         timeout-minutes: 8
         run: python -m proxyscraper.sites "results/$(cat results/latest.txt)"
 
+      # Twitch's stream CDN turns most free proxies away even where www.twitch.tv doesn't: token + manifest through
+      # every HTTPS-capable proxy, and the country Twitch itself places it in (~1 min). Optional like the sites.
+      - name: Check which ones Twitch lets play a stream
+        continue-on-error: true
+        timeout-minutes: 5
+        run: python -m proxyscraper.twitch "results/$(cat results/latest.txt)"
+
       # 100 KB through every HTTPS-capable proxy, 12 s at most each (about a minute). Optional like the sites.
       - name: Measure the download speed
         continue-on-error: true

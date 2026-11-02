@@ -33,6 +33,7 @@ from .report import weekly_facts, write_report
 from .sites import SITES
 from .sourcepages import write_source_pages
 from .sources import SourceStats
+from .twitch import passed as twitch_passed
 
 SKIP_EXIT_CODE = 78
 SITE = Path(__file__).resolve().parent / "site"  # index.html plus the images it links (logo, preview, touch icon)
@@ -107,6 +108,9 @@ def stats_for(rows: List[dict], now: datetime) -> dict:
         # None when a site wasn't checked at all (the step failed, its DNS lookup didn't work) – not a measured 0
         "sites": {s.name: sum(1 for r in rows if (r.get("sites") or {}).get(s.name))
                   if any(s.name in (r.get("sites") or {}) for r in rows) else None for s in SITES},
+        # proxies Twitch's stream CDN let through (twitch.py), None when the step didn't run
+        "twitch": sum(1 for r in rows if (r.get("twitch") or {}).get("usher"))
+        if any("twitch" in r for r in rows) else None,
         "run_hours": RUN_HOURS,
         "countries": dict(Counter(r["country"] for r in rows if r.get("country")).most_common(15)),
         "median_latency": round(statistics.median(r["latency"] for r in rows)) if rows else 0,
@@ -127,9 +131,13 @@ def write_lists(rows: List[dict], out: Path) -> Dict[str, int]:
         files[f"{t}.txt"] = [r["proxy"] for r in rows if r["ptype"] == t]
     for site in SITES:
         files[f"works-with/{site.name}.txt"] = [r["url"] for r in rows if (r.get("sites") or {}).get(site.name)]
+    files["works-with/twitch.txt"] = [r["url"] for r in twitch_passed(rows)]
     (out / "works-with").mkdir(exist_ok=True)
     for name, lines in files.items():
         (out / name).write_text("".join(f"{line}\n" for line in lines), encoding="utf-8")
+    # the full entries too: what Twitch-picking tools need is twitch_country, which the .txt can't carry
+    (out / "works-with" / "twitch.json").write_text(
+        json.dumps(twitch_passed(rows), indent=1, ensure_ascii=False), encoding="utf-8")
     return {name: len(lines) for name, lines in files.items()}
 
 

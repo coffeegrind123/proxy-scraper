@@ -142,6 +142,8 @@ Every protocol and country also has its own page with a plain download, e.g. [SO
   <img src="https://proxy-scraper.de/countries-dark.svg" alt="Countries with the most working proxies right now" width="100%">
 </picture></a>
 
+**Twitch:** `works-with/twitch.txt` and `works-with/twitch.json` list the proxies Twitch lets play a stream. Twitch's stream CDN turns most free proxies away even when www.twitch.tv loads. The JSON adds `twitch_country`, the country Twitch itself places the proxy in, which often differs from GeoIP. Run the same check on any run with `python -m proxyscraper.twitch results/<run> --out <dir>`.
+
 ```bash
 curl -s https://raw.githubusercontent.com/maximilianfeix/proxy-scraper/proxy-list/socks5.txt | head
 ```
