@@ -1,0 +1,8229 @@
+[
+ {
+  "ptype": "http",
+  "proxy": "18.222.225.236:3128",
+  "latency": 132,
+  "exit_ip": "18.222.225.236",
+  "https": true,
+  "anonymity": "elite",
+  "country": "US",
+  "targets": {},
+  "asn": 16509,
+  "org": "Amazon.com, Inc.",
+  "hosting": true,
+  "blocklisted": false,
+  "speed_kbps": 610,
+  "checked_at": "2026-11-21T19:22:24+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:24+00:00",
+    "ms": 132,
+    "data": {
+     "exit_ip": "18.222.225.236"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:24+00:00",
+    "ms": 79,
+    "data": {
+     "exit_ip": "18.222.225.236",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 68,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 107,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "http://18.222.225.236:3128",
+  "sites": {
+   "google": true,
+   "reddit": false,
+   "amazon": true,
+   "instagram": false,
+   "tiktok": true,
+   "discord": true
+  },
+  "streak": 12,
+  "first_seen": "2026-11-21T08:30:27+00:00",
+  "uptime_24h": 48,
+  "uptime_7d": 7,
+  "twitch": {
+   "usher": true,
+   "country": "US",
+   "exit_ip": "18.222.225.236"
+  },
+  "twitch_country": "US"
+ },
+ {
+  "ptype": "http",
+  "proxy": "50.238.106.26:3128",
+  "latency": 440,
+  "exit_ip": "50.238.106.26",
+  "https": true,
+  "anonymity": "elite",
+  "country": "US",
+  "targets": {},
+  "asn": 7922,
+  "org": "Comcast Cable Communications, LLC",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 557,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 440,
+    "data": {
+     "exit_ip": "50.238.106.26"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1358,
+    "data": {
+     "exit_ip": "50.238.106.26",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 205,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 330,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "http://50.238.106.26:3128",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": true,
+   "discord": true
+  },
+  "streak": 15,
+  "first_seen": "2026-11-21T05:28:58+00:00",
+  "uptime_24h": 60,
+  "uptime_7d": 9,
+  "twitch": {
+   "usher": true,
+   "country": "US",
+   "exit_ip": "50.238.106.26"
+  },
+  "twitch_country": "US"
+ },
+ {
+  "ptype": "http",
+  "proxy": "103.237.102.191:11111",
+  "latency": 312,
+  "exit_ip": "103.237.102.191",
+  "https": true,
+  "anonymity": "elite",
+  "country": "DE",
+  "targets": {},
+  "asn": 62610,
+  "org": "Zenlayer Inc",
+  "hosting": true,
+  "blocklisted": true,
+  "speed_kbps": 182,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 312,
+    "data": {
+     "exit_ip": "103.237.102.191"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 441,
+    "data": {
+     "exit_ip": "103.237.102.191",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 600,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 807,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "http://103.237.102.191:11111",
+  "sites": {
+   "google": false,
+   "reddit": true,
+   "amazon": true,
+   "instagram": false,
+   "tiktok": true,
+   "discord": true
+  },
+  "streak": 53,
+  "first_seen": "2026-09-26T08:32:14+00:00",
+  "uptime_24h": 100,
+  "uptime_7d": 91,
+  "twitch": {
+   "usher": true,
+   "country": "DE",
+   "exit_ip": "103.237.102.191"
+  },
+  "twitch_country": "DE"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "193.25.215.182:22222",
+  "latency": 532,
+  "exit_ip": "193.25.215.182",
+  "https": true,
+  "anonymity": "elite",
+  "country": "US",
+  "targets": {},
+  "asn": 397966,
+  "org": "ReadyDedis, LLC",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 90,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 532,
+    "data": {
+     "exit_ip": "193.25.215.182"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 809,
+    "data": {
+     "exit_ip": "193.25.215.182",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:29+00:00",
+    "ms": 3089,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:33+00:00",
+    "ms": 4578,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://193.25.215.182:22222",
+  "sites": {
+   "google": false,
+   "reddit": true,
+   "amazon": true,
+   "instagram": false,
+   "tiktok": true,
+   "discord": true
+  },
+  "streak": 44,
+  "first_seen": "2026-09-24T14:32:14+00:00",
+  "uptime_24h": 100,
+  "uptime_7d": 93,
+  "twitch": {
+   "usher": true,
+   "country": "US",
+   "exit_ip": "193.25.215.182"
+  },
+  "twitch_country": "US"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "185.244.158.4:3129",
+  "latency": 669,
+  "exit_ip": "185.244.158.4",
+  "https": true,
+  "anonymity": "elite",
+  "country": "UA",
+  "targets": {},
+  "asn": 41985,
+  "org": "Stargroup LLC",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 120,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 669,
+    "data": {
+     "exit_ip": "185.244.158.4"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 622,
+    "data": {
+     "exit_ip": "185.244.158.4",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 622,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 1068,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://185.244.158.4:3129",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 6,
+  "first_seen": "2026-09-26T23:29:31+00:00",
+  "uptime_24h": 76,
+  "uptime_7d": 56,
+  "twitch": {
+   "usher": true,
+   "country": "UA",
+   "exit_ip": "185.244.158.4"
+  },
+  "twitch_country": "UA"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "177.85.65.177:4153",
+  "latency": 735,
+  "exit_ip": "177.85.65.177",
+  "https": true,
+  "anonymity": "elite",
+  "country": "BR",
+  "targets": {},
+  "asn": 262600,
+  "org": "ASE TELECOMUNICAÇÕES LTDA ME",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 134,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 735,
+    "data": {
+     "exit_ip": "177.85.65.177"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 693,
+    "data": {
+     "exit_ip": "177.85.65.177",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 713,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 1206,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://177.85.65.177:4153",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 5,
+  "first_seen": "2026-09-26T22:32:14+00:00",
+  "uptime_24h": 72,
+  "uptime_7d": 55,
+  "twitch": {
+   "usher": true,
+   "country": "BR",
+   "exit_ip": "177.85.65.177"
+  },
+  "twitch_country": "BR"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "209.50.255.91:1080",
+  "latency": 1443,
+  "exit_ip": "209.50.255.91",
+  "https": true,
+  "anonymity": "elite",
+  "country": "US",
+  "targets": {},
+  "asn": 30633,
+  "org": "Leaseweb USA, Inc.",
+  "hosting": true,
+  "blocklisted": true,
+  "speed_kbps": 179,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1443,
+    "data": {
+     "exit_ip": "209.50.255.91"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 378,
+    "data": {
+     "exit_ip": "209.50.255.91",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 295,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 875,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://209.50.255.91:1080",
+  "sites": {
+   "google": false,
+   "reddit": true,
+   "amazon": true,
+   "instagram": false,
+   "tiktok": true,
+   "discord": true
+  },
+  "streak": 6,
+  "first_seen": "2026-09-24T14:32:14+00:00",
+  "uptime_24h": 96,
+  "uptime_7d": 84,
+  "twitch": {
+   "usher": true,
+   "country": "US",
+   "exit_ip": "209.50.255.91"
+  },
+  "twitch_country": "US"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "219.78.223.199:5001",
+  "latency": 1312,
+  "exit_ip": "219.78.223.199",
+  "https": true,
+  "anonymity": "elite",
+  "country": "HK",
+  "targets": {},
+  "asn": 4760,
+  "org": "PCCW IMS Limited",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 102,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1312,
+    "data": {
+     "exit_ip": "219.78.223.199"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 1271,
+    "data": {
+     "exit_ip": "219.78.223.199",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 1307,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 1708,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://219.78.223.199:5001",
+  "sites": {
+   "google": false,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "discord": true
+  },
+  "streak": 7,
+  "first_seen": "2026-11-20T14:28:38+00:00",
+  "uptime_24h": 96,
+  "uptime_7d": 17,
+  "twitch": {
+   "usher": true,
+   "country": "HK",
+   "exit_ip": "219.78.223.199"
+  },
+  "twitch_country": "HK"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "47.76.227.81:6002",
+  "latency": 1239,
+  "exit_ip": "47.76.227.81",
+  "https": true,
+  "anonymity": "elite",
+  "country": "HK",
+  "targets": {},
+  "asn": 45102,
+  "org": "Alibaba (US) Technology Co., Ltd.",
+  "hosting": true,
+  "blocklisted": true,
+  "speed_kbps": 91,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1239,
+    "data": {
+     "exit_ip": "47.76.227.81"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 1223,
+    "data": {
+     "exit_ip": "47.76.227.81",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 1227,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 2290,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://47.76.227.81:6002",
+  "sites": {
+   "google": true,
+   "reddit": false,
+   "amazon": true,
+   "instagram": false,
+   "discord": true
+  },
+  "streak": 6,
+  "first_seen": "2026-11-21T14:28:43+00:00",
+  "uptime_24h": 24,
+  "uptime_7d": 4,
+  "twitch": {
+   "usher": true,
+   "country": "HK",
+   "exit_ip": "47.76.227.81"
+  },
+  "twitch_country": "HK"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "189.203.181.34:1080",
+  "latency": 351,
+  "exit_ip": "189.203.181.34",
+  "https": true,
+  "anonymity": "elite",
+  "country": "MX",
+  "targets": {},
+  "asn": 22884,
+  "org": "TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V.",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 272,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 351,
+    "data": {
+     "exit_ip": "189.203.181.34"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 2326,
+    "data": {
+     "exit_ip": "189.203.181.34",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 287,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 375,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://189.203.181.34:1080",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": false,
+   "tiktok": false
+  },
+  "streak": 1,
+  "first_seen": "2026-09-26T23:13:24+00:00",
+  "uptime_24h": 28,
+  "uptime_7d": 40,
+  "twitch": {
+   "usher": true,
+   "country": "MX",
+   "exit_ip": "189.203.181.34"
+  },
+  "twitch_country": "MX"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "186.225.132.13:4145",
+  "latency": 674,
+  "exit_ip": "186.225.132.10",
+  "https": true,
+  "anonymity": "elite",
+  "country": "BR",
+  "targets": {},
+  "asn": 262761,
+  "org": "Sinal Br Telecom Ltda",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 126,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 674,
+    "data": {
+     "exit_ip": "186.225.132.10"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 643,
+    "data": {
+     "exit_ip": "186.225.132.10",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 658,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 1062,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://186.225.132.13:4145",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 2,
+  "first_seen": "2026-09-24T14:32:14+00:00",
+  "uptime_24h": 92,
+  "uptime_7d": 92,
+  "twitch": {
+   "usher": true,
+   "country": "BR",
+   "exit_ip": "186.225.132.10"
+  },
+  "twitch_country": "BR"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "186.225.149.90:4145",
+  "latency": 645,
+  "exit_ip": "186.225.149.90",
+  "https": true,
+  "anonymity": "elite",
+  "country": "BR",
+  "targets": {},
+  "asn": 262761,
+  "org": "Sinal Br Telecom Ltda",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 116,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 645,
+    "data": {
+     "exit_ip": "186.225.149.90"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 635,
+    "data": {
+     "exit_ip": "186.225.149.90",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 626,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 1072,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://186.225.149.90:4145",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 2,
+  "first_seen": "2026-09-24T14:32:14+00:00",
+  "uptime_24h": 92,
+  "uptime_7d": 92,
+  "twitch": {
+   "usher": true,
+   "country": "BR",
+   "exit_ip": "186.225.149.90"
+  },
+  "twitch_country": "BR"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "186.225.149.81:4145",
+  "latency": 663,
+  "exit_ip": "186.225.149.90",
+  "https": true,
+  "anonymity": "elite",
+  "country": "BR",
+  "targets": {},
+  "asn": 262761,
+  "org": "Sinal Br Telecom Ltda",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 112,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 663,
+    "data": {
+     "exit_ip": "186.225.149.90"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 636,
+    "data": {
+     "exit_ip": "186.225.149.90",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 640,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 1071,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://186.225.149.81:4145",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 2,
+  "first_seen": "2026-09-24T14:32:14+00:00",
+  "uptime_24h": 92,
+  "uptime_7d": 92,
+  "twitch": {
+   "usher": true,
+   "country": "BR",
+   "exit_ip": "186.225.149.90"
+  },
+  "twitch_country": "BR"
+ },
+ {
+  "ptype": "http",
+  "proxy": "216.125.18.67:3128",
+  "latency": 583,
+  "exit_ip": "208.124.108.154",
+  "https": true,
+  "anonymity": "elite",
+  "country": "US",
+  "targets": {},
+  "asn": 5742,
+  "org": "Consolidated Communications, Inc.",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 36,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 583,
+    "data": {
+     "exit_ip": "208.124.108.154"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1262,
+    "data": {
+     "exit_ip": "208.124.108.154",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 269,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:29+00:00",
+    "ms": 2579,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "http://216.125.18.67:3128",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": false,
+   "tiktok": true,
+   "discord": true
+  },
+  "streak": 31,
+  "first_seen": "2026-11-20T13:28:25+00:00",
+  "uptime_24h": 100,
+  "uptime_7d": 18,
+  "twitch": {
+   "usher": true,
+   "country": "US",
+   "exit_ip": "208.124.108.154"
+  },
+  "twitch_country": "US"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "186.225.132.10:4145",
+  "latency": 655,
+  "exit_ip": "186.225.132.10",
+  "https": true,
+  "anonymity": "elite",
+  "country": "BR",
+  "targets": {},
+  "asn": 262761,
+  "org": "Sinal Br Telecom Ltda",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 110,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 655,
+    "data": {
+     "exit_ip": "186.225.132.10"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 640,
+    "data": {
+     "exit_ip": "186.225.132.10",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 660,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 1096,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://186.225.132.10:4145",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 2,
+  "first_seen": "2026-09-24T14:32:14+00:00",
+  "uptime_24h": 92,
+  "uptime_7d": 92,
+  "twitch": {
+   "usher": true,
+   "country": "BR",
+   "exit_ip": "186.225.132.10"
+  },
+  "twitch_country": "BR"
+ },
+ {
+  "ptype": "http",
+  "proxy": "41.65.103.168:8080",
+  "latency": 511,
+  "exit_ip": "41.65.103.161",
+  "https": true,
+  "anonymity": "anonymous",
+  "country": "EG",
+  "targets": {},
+  "asn": 36992,
+  "org": "ETISALAT MISR",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 69,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 511,
+    "data": {
+     "exit_ip": "41.65.103.161"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 457,
+    "data": {
+     "exit_ip": "41.65.103.161",
+     "anonymity": "anonymous"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 451,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 1095,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "http://41.65.103.168:8080",
+  "sites": {
+   "amazon": false,
+   "discord": true
+  },
+  "streak": 2,
+  "first_seen": "2026-11-04T11:27:12+00:00",
+  "uptime_24h": 52,
+  "uptime_7d": 39,
+  "twitch": {
+   "usher": true,
+   "country": "EG",
+   "exit_ip": "41.65.103.168"
+  },
+  "twitch_country": "EG"
+ },
+ {
+  "ptype": "http",
+  "proxy": "103.133.26.11:8080",
+  "latency": 694,
+  "exit_ip": "103.133.26.1",
+  "https": true,
+  "anonymity": "anonymous",
+  "country": "ID",
+  "targets": {},
+  "asn": 138130,
+  "org": "PT PHATRIA INTI PERSADA",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 70,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 694,
+    "data": {
+     "exit_ip": "103.133.26.1"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 1571,
+    "data": {
+     "exit_ip": "103.133.26.1",
+     "anonymity": "anonymous"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 1175,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 1643,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "http://103.133.26.11:8080",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": true,
+   "discord": true
+  },
+  "streak": 2,
+  "first_seen": "2026-10-22T10:37:29+00:00",
+  "uptime_24h": 84,
+  "uptime_7d": 75,
+  "twitch": {
+   "usher": true,
+   "country": "ID",
+   "exit_ip": "203.17.85.181"
+  },
+  "twitch_country": "ID"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "157.90.113.23:9052",
+  "latency": 745,
+  "exit_ip": "217.217.243.173",
+  "https": true,
+  "anonymity": "elite",
+  "country": "NL",
+  "targets": {},
+  "asn": 214677,
+  "org": "Matteo Martelloni trading as DELUXHOST",
+  "hosting": true,
+  "blocklisted": true,
+  "speed_kbps": 185,
+  "checked_at": "2026-11-21T19:22:29+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:29+00:00",
+    "ms": 745,
+    "data": {
+     "exit_ip": "217.217.243.173"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 762,
+    "data": {
+     "exit_ip": "217.217.243.173",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:31+00:00",
+    "ms": 723,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:31+00:00",
+    "ms": 830,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://157.90.113.23:9052",
+  "sites": {},
+  "streak": 1,
+  "first_seen": "2026-09-26T23:29:31+00:00",
+  "uptime_24h": 28,
+  "uptime_7d": 17,
+  "twitch": {
+   "usher": true,
+   "country": "SM",
+   "exit_ip": "217.217.243.173"
+  },
+  "twitch_country": "SM"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "49.207.177.65:5678",
+  "latency": 1253,
+  "exit_ip": "49.207.177.65",
+  "https": true,
+  "anonymity": "elite",
+  "country": "IN",
+  "targets": {},
+  "asn": 24309,
+  "org": "Atria Convergence Technologies Pvt. Ltd.,",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 74,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1253,
+    "data": {
+     "exit_ip": "49.207.177.65"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:29+00:00",
+    "ms": 3153,
+    "data": {
+     "exit_ip": "49.207.177.65",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 1176,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:37+00:00",
+    "ms": 7030,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://49.207.177.65:5678",
+  "sites": {
+   "reddit": true,
+   "instagram": true
+  },
+  "streak": 2,
+  "first_seen": "2026-09-27T04:37:06+00:00",
+  "uptime_24h": 36,
+  "uptime_7d": 30,
+  "twitch": {
+   "usher": true,
+   "country": "IN",
+   "exit_ip": "49.207.177.65"
+  },
+  "twitch_country": "IN"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "91.92.78.207:4145",
+  "latency": 801,
+  "exit_ip": "91.92.78.207",
+  "https": true,
+  "anonymity": "elite",
+  "country": "BG",
+  "targets": {},
+  "asn": 39251,
+  "org": "NETGUARD LLC",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 153,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 801,
+    "data": {
+     "exit_ip": "91.92.78.207"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 4750,
+    "data": {
+     "exit_ip": "91.92.78.207",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 648,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:32+00:00",
+    "ms": 1129,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://91.92.78.207:4145",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true
+  },
+  "streak": 1,
+  "first_seen": "2026-11-08T19:25:46+00:00",
+  "uptime_24h": 32,
+  "uptime_7d": 29,
+  "twitch": {
+   "usher": true,
+   "country": "BG",
+   "exit_ip": "91.92.78.207"
+  },
+  "twitch_country": "BG"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "110.34.1.212:1080",
+  "latency": 1262,
+  "exit_ip": "110.34.1.212",
+  "https": true,
+  "anonymity": "elite",
+  "country": "NP",
+  "targets": {},
+  "asn": 4007,
+  "org": "Subisu Cablenet",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 65,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1262,
+    "data": {
+     "exit_ip": "110.34.1.212"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:31+00:00",
+    "ms": 5448,
+    "data": {
+     "exit_ip": "110.34.1.212",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:40+00:00",
+    "ms": 1356,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:43+00:00",
+    "ms": 3057,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://110.34.1.212:1080",
+  "sites": {
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 2,
+  "first_seen": "2026-11-16T09:42:25+00:00",
+  "uptime_24h": 36,
+  "uptime_7d": 37,
+  "twitch": {
+   "usher": true,
+   "country": "NP",
+   "exit_ip": "110.34.1.212"
+  },
+  "twitch_country": "NP"
+ },
+ {
+  "ptype": "http",
+  "proxy": "103.133.26.72:8080",
+  "latency": 550,
+  "exit_ip": "103.133.26.1",
+  "https": true,
+  "anonymity": "anonymous",
+  "country": "ID",
+  "targets": {},
+  "asn": 138130,
+  "org": "PT PHATRIA INTI PERSADA",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 44,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 550,
+    "data": {
+     "exit_ip": "103.133.26.1"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 993,
+    "data": {
+     "exit_ip": "103.133.26.1",
+     "anonymity": "anonymous"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 981,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:29+00:00",
+    "ms": 2163,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "http://103.133.26.72:8080",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 2,
+  "first_seen": "2026-09-27T08:52:03+00:00",
+  "uptime_24h": 72,
+  "uptime_7d": 77,
+  "twitch": {
+   "usher": true,
+   "country": "ID",
+   "exit_ip": "103.28.116.58"
+  },
+  "twitch_country": "ID"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "103.149.75.82:1080",
+  "latency": 1334,
+  "exit_ip": "103.149.75.82",
+  "https": true,
+  "anonymity": "elite",
+  "country": "BD",
+  "targets": {},
+  "asn": 63969,
+  "org": "Race Online Limited",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 67,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1334,
+    "data": {
+     "exit_ip": "103.149.75.82"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 1310,
+    "data": {
+     "exit_ip": "103.149.75.82",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 1307,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 2095,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://103.149.75.82:1080",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 2,
+  "first_seen": "2026-09-25T08:32:14+00:00",
+  "uptime_24h": 92,
+  "uptime_7d": 85,
+  "twitch": {
+   "usher": true,
+   "country": "BD",
+   "exit_ip": "103.149.75.82"
+  },
+  "twitch_country": "BD"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "96.9.77.71:51080",
+  "latency": 2368,
+  "exit_ip": "96.9.77.71",
+  "https": true,
+  "anonymity": "elite",
+  "country": "KH",
+  "targets": {},
+  "asn": 131207,
+  "org": "S.I Group",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 67,
+  "checked_at": "2026-11-21T19:22:27+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 2368,
+    "data": {
+     "exit_ip": "96.9.77.71"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:40+00:00",
+    "ms": 5399,
+    "data": {
+     "exit_ip": "96.9.77.71",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:50+00:00",
+    "ms": 3298,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:57+00:00",
+    "ms": 6127,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://96.9.77.71:51080",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 4,
+  "first_seen": "2026-09-27T06:48:06+00:00",
+  "uptime_24h": 28,
+  "uptime_7d": 36,
+  "twitch": {
+   "usher": true,
+   "country": "KH",
+   "exit_ip": "96.9.77.71"
+  },
+  "twitch_country": "KH"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "45.74.31.47:4173",
+  "latency": 2163,
+  "exit_ip": "14.248.80.79",
+  "https": true,
+  "anonymity": "elite",
+  "country": "VN",
+  "targets": {},
+  "asn": 45899,
+  "org": "VNPT Corp",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 116,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 2163,
+    "data": {
+     "exit_ip": "14.248.80.79"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:25:44+00:00",
+    "ms": 7851,
+    "data": {
+     "exit_ip": "14.248.80.79",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:25:49+00:00",
+    "ms": 4911,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:25:56+00:00",
+    "ms": 6625,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://45.74.31.47:4173",
+  "sites": {
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 2,
+  "first_seen": "2026-11-08T23:27:01+00:00",
+  "uptime_24h": 16,
+  "uptime_7d": 7,
+  "twitch": {
+   "usher": true,
+   "country": "VN",
+   "exit_ip": "14.248.80.79"
+  },
+  "twitch_country": "VN"
+ },
+ {
+  "ptype": "http",
+  "proxy": "103.133.26.73:3128",
+  "latency": 598,
+  "exit_ip": "103.133.26.1",
+  "https": true,
+  "anonymity": "anonymous",
+  "country": "ID",
+  "targets": {},
+  "asn": 138130,
+  "org": "PT PHATRIA INTI PERSADA",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 41,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 598,
+    "data": {
+     "exit_ip": "103.133.26.1"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 990,
+    "data": {
+     "exit_ip": "103.133.26.1",
+     "anonymity": "anonymous"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 1008,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 1290,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "http://103.133.26.73:3128",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": false,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 2,
+  "first_seen": "2026-09-26T22:32:14+00:00",
+  "uptime_24h": 84,
+  "uptime_7d": 87,
+  "twitch": {
+   "usher": true,
+   "country": "ID",
+   "exit_ip": "103.178.42.17"
+  },
+  "twitch_country": "ID"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "88.87.79.18:3629",
+  "latency": 2802,
+  "exit_ip": "88.87.79.18",
+  "https": true,
+  "anonymity": "elite",
+  "country": "RU",
+  "targets": {},
+  "asn": 39435,
+  "org": "JSC \"ER-Telecom Holding\"",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 81,
+  "checked_at": "2026-11-21T19:22:27+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 2802,
+    "data": {
+     "exit_ip": "88.87.79.18"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 2839,
+    "data": {
+     "exit_ip": "88.87.79.18",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:33+00:00",
+    "ms": 3051,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:39+00:00",
+    "ms": 6362,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://88.87.79.18:3629",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 3,
+  "first_seen": "2026-09-26T21:32:14+00:00",
+  "uptime_24h": 60,
+  "uptime_7d": 39,
+  "twitch": {
+   "usher": true,
+   "country": "RU",
+   "exit_ip": "88.87.79.18"
+  },
+  "twitch_country": "RU"
+ },
+ {
+  "ptype": "http",
+  "proxy": "103.133.26.119:8080",
+  "latency": 922,
+  "exit_ip": "103.133.26.1",
+  "https": true,
+  "anonymity": "anonymous",
+  "country": "ID",
+  "targets": {},
+  "asn": 138130,
+  "org": "PT PHATRIA INTI PERSADA",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 47,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 922,
+    "data": {
+     "exit_ip": "103.133.26.1"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 1346,
+    "data": {
+     "exit_ip": "103.133.26.1",
+     "anonymity": "anonymous"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 1217,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 1663,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "http://103.133.26.119:8080",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 2,
+  "first_seen": "2026-09-26T22:44:20+00:00",
+  "uptime_24h": 40,
+  "uptime_7d": 60,
+  "twitch": {
+   "usher": true,
+   "country": "ID",
+   "exit_ip": "179.65.205.18"
+  },
+  "twitch_country": "ID"
+ },
+ {
+  "ptype": "http",
+  "proxy": "37.193.95.9:10809",
+  "latency": 812,
+  "exit_ip": "104.243.39.62",
+  "https": true,
+  "anonymity": "elite",
+  "country": "NL",
+  "targets": {},
+  "asn": 23470,
+  "org": "ReliableSite.Net LLC",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 113,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 812,
+    "data": {
+     "exit_ip": "104.243.39.62"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 795,
+    "data": {
+     "exit_ip": "104.243.39.62",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 797,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 1008,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "http://37.193.95.9:10809",
+  "sites": {
+   "reddit": false,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": true,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-11-07T11:25:53+00:00",
+  "uptime_24h": 24,
+  "uptime_7d": 15,
+  "twitch": {
+   "usher": true,
+   "country": "US",
+   "exit_ip": "104.243.39.62"
+  },
+  "twitch_country": "US"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "109.68.189.22:54643",
+  "latency": 829,
+  "exit_ip": "109.68.189.22",
+  "https": true,
+  "anonymity": "elite",
+  "country": "RU",
+  "targets": {},
+  "asn": 31430,
+  "org": "OOO Suntel",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 113,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 829,
+    "data": {
+     "exit_ip": "109.68.189.22"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 693,
+    "data": {
+     "exit_ip": "109.68.189.22",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 664,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 1109,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://109.68.189.22:54643",
+  "sites": {
+   "google": true,
+   "tiktok": false
+  },
+  "streak": 1,
+  "first_seen": "2026-09-26T22:44:20+00:00",
+  "uptime_24h": 48,
+  "uptime_7d": 50,
+  "twitch": {
+   "usher": true,
+   "country": "RU",
+   "exit_ip": "109.68.189.22"
+  },
+  "twitch_country": "RU"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "45.74.31.40:4116",
+  "latency": 2442,
+  "exit_ip": "14.248.80.79",
+  "https": true,
+  "anonymity": "elite",
+  "country": "VN",
+  "targets": {},
+  "asn": 45899,
+  "org": "VNPT Corp",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 138,
+  "checked_at": "2026-11-21T19:22:27+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 2442,
+    "data": {
+     "exit_ip": "14.248.80.79"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 1238,
+    "data": {
+     "exit_ip": "14.248.80.79",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:31+00:00",
+    "ms": 3266,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:36+00:00",
+    "ms": 4407,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://45.74.31.40:4116",
+  "sites": {
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 2,
+  "first_seen": "2026-11-04T23:30:16+00:00",
+  "uptime_24h": 8,
+  "uptime_7d": 6,
+  "twitch": {
+   "usher": true,
+   "country": "VN",
+   "exit_ip": "14.248.80.79"
+  },
+  "twitch_country": "VN"
+ },
+ {
+  "ptype": "http",
+  "proxy": "37.193.95.9:10808",
+  "latency": 808,
+  "exit_ip": "104.243.39.62",
+  "https": true,
+  "anonymity": "elite",
+  "country": "NL",
+  "targets": {},
+  "asn": 23470,
+  "org": "ReliableSite.Net LLC",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 109,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 808,
+    "data": {
+     "exit_ip": "104.243.39.62"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 814,
+    "data": {
+     "exit_ip": "104.243.39.62",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 809,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 1142,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "http://37.193.95.9:10808",
+  "sites": {
+   "reddit": false,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": true,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-11-01T14:25:36+00:00",
+  "uptime_24h": 20,
+  "uptime_7d": 15,
+  "twitch": {
+   "usher": true,
+   "country": "US",
+   "exit_ip": "104.243.39.62"
+  },
+  "twitch_country": "US"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "177.136.124.45:56113",
+  "latency": 726,
+  "exit_ip": "177.136.124.45",
+  "https": true,
+  "anonymity": "elite",
+  "country": "BR",
+  "targets": {},
+  "asn": 28186,
+  "org": "ITS TELECOMUNICACOES LTDA",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 97,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 726,
+    "data": {
+     "exit_ip": "177.136.124.45"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:33+00:00",
+    "ms": 679,
+    "data": {
+     "exit_ip": "177.136.124.45",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:36+00:00",
+    "ms": 2755,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:38+00:00",
+    "ms": 2167,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://177.136.124.45:56113",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-11-19T21:27:52+00:00",
+  "uptime_24h": 44,
+  "uptime_7d": 17,
+  "twitch": {
+   "usher": true,
+   "country": "BR",
+   "exit_ip": "177.136.124.45"
+  },
+  "twitch_country": "BR"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "185.230.191.85:1080",
+  "latency": 2533,
+  "exit_ip": "185.230.191.85",
+  "https": true,
+  "anonymity": "elite",
+  "country": "FI",
+  "targets": {},
+  "asn": 212706,
+  "org": "LIVI HOSTING LTD",
+  "hosting": true,
+  "blocklisted": false,
+  "speed_kbps": 142,
+  "checked_at": "2026-11-21T19:22:27+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 2533,
+    "data": {
+     "exit_ip": "185.230.191.85"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:29+00:00",
+    "ms": 2458,
+    "data": {
+     "exit_ip": "185.230.191.85",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:32+00:00",
+    "ms": 2245,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:35+00:00",
+    "ms": 3493,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://185.230.191.85:1080",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": false,
+   "tiktok": true,
+   "discord": true
+  },
+  "streak": 2,
+  "first_seen": "2026-11-21T18:29:38+00:00",
+  "uptime_24h": 8,
+  "uptime_7d": 1,
+  "twitch": {
+   "usher": true,
+   "country": "FI",
+   "exit_ip": "185.230.191.85"
+  },
+  "twitch_country": "FI"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "37.193.95.9:10808",
+  "latency": 884,
+  "exit_ip": "104.243.39.62",
+  "https": true,
+  "anonymity": "elite",
+  "country": "NL",
+  "targets": {},
+  "asn": 23470,
+  "org": "ReliableSite.Net LLC",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 113,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 884,
+    "data": {
+     "exit_ip": "104.243.39.62"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 955,
+    "data": {
+     "exit_ip": "104.243.39.62",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 940,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 1235,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://37.193.95.9:10808",
+  "sites": {
+   "reddit": false,
+   "amazon": false,
+   "instagram": true,
+   "tiktok": true,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-11-01T15:25:44+00:00",
+  "uptime_24h": 20,
+  "uptime_7d": 16,
+  "twitch": {
+   "usher": true,
+   "country": "US",
+   "exit_ip": "104.243.39.62"
+  },
+  "twitch_country": "US"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "193.106.57.96:5678",
+  "latency": 700,
+  "exit_ip": "193.106.57.96",
+  "https": true,
+  "anonymity": "elite",
+  "country": "UA",
+  "targets": {},
+  "asn": 42510,
+  "org": "FOP \"Makurin Stanislav Volodimirovich\"",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 91,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 700,
+    "data": {
+     "exit_ip": "193.106.57.96"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 608,
+    "data": {
+     "exit_ip": "193.106.57.96",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 608,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 1057,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://193.106.57.96:5678",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "instagram": false,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-09-26T20:32:14+00:00",
+  "uptime_24h": 36,
+  "uptime_7d": 20,
+  "twitch": {
+   "usher": true,
+   "country": "UA",
+   "exit_ip": "193.106.57.96"
+  },
+  "twitch_country": "UA"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "49.13.22.249:10805",
+  "latency": 1750,
+  "exit_ip": "135.136.16.192",
+  "https": true,
+  "anonymity": "elite",
+  "country": "AD",
+  "targets": {},
+  "asn": 9009,
+  "org": "M247 Europe SRL",
+  "hosting": true,
+  "blocklisted": false,
+  "speed_kbps": 60,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1750,
+    "data": {
+     "exit_ip": "135.136.16.192"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 1461,
+    "data": {
+     "exit_ip": "135.136.16.192",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:29+00:00",
+    "ms": 1077,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 1502,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://49.13.22.249:10805",
+  "sites": {
+   "google": false,
+   "reddit": false,
+   "amazon": false,
+   "instagram": true,
+   "tiktok": true,
+   "discord": true
+  },
+  "streak": 2,
+  "first_seen": "2026-09-26T20:32:14+00:00",
+  "uptime_24h": 64,
+  "uptime_7d": 57,
+  "twitch": {
+   "usher": true,
+   "country": "ES",
+   "exit_ip": "135.136.16.192"
+  },
+  "twitch_country": "ES"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "103.80.168.9:1080",
+  "latency": 2142,
+  "exit_ip": "103.80.168.9",
+  "https": true,
+  "anonymity": "elite",
+  "country": "IN",
+  "targets": {},
+  "asn": 150657,
+  "org": "Comnet Online Private Limited",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 78,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 2142,
+    "data": {
+     "exit_ip": "103.80.168.9"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 3096,
+    "data": {
+     "exit_ip": "103.80.168.9",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:31+00:00",
+    "ms": 1067,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:33+00:00",
+    "ms": 2701,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://103.80.168.9:1080",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": false,
+   "discord": true
+  },
+  "streak": 2,
+  "first_seen": "2026-11-13T12:33:48+00:00",
+  "uptime_24h": 64,
+  "uptime_7d": 53,
+  "twitch": {
+   "usher": true,
+   "country": "IN",
+   "exit_ip": "103.80.168.9"
+  },
+  "twitch_country": "IN"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "178.20.45.58:1080",
+  "latency": 3874,
+  "exit_ip": "178.20.45.58",
+  "https": true,
+  "anonymity": "elite",
+  "country": "RU",
+  "targets": {},
+  "asn": 48282,
+  "org": "Hosting technology LTD",
+  "hosting": true,
+  "blocklisted": false,
+  "speed_kbps": 142,
+  "checked_at": "2026-11-21T19:22:28+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 3874,
+    "data": {
+     "exit_ip": "178.20.45.58"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:44+00:00",
+    "ms": 8020,
+    "data": {
+     "exit_ip": "178.20.45.58",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:52+00:00",
+    "ms": 7951,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:57+00:00",
+    "ms": 5306,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://178.20.45.58:1080",
+  "sites": {
+   "google": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 3,
+  "first_seen": "2026-11-21T17:30:25+00:00",
+  "uptime_24h": 12,
+  "uptime_7d": 2,
+  "twitch": {
+   "usher": true,
+   "country": "RU",
+   "exit_ip": "178.20.45.58"
+  },
+  "twitch_country": "RU"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "37.193.95.9:10808",
+  "latency": 1031,
+  "exit_ip": "104.243.39.62",
+  "https": true,
+  "anonymity": "elite",
+  "country": "NL",
+  "targets": {},
+  "asn": 23470,
+  "org": "ReliableSite.Net LLC",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 113,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 1031,
+    "data": {
+     "exit_ip": "104.243.39.62"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 1152,
+    "data": {
+     "exit_ip": "104.243.39.62",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 1140,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:29+00:00",
+    "ms": 1246,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://37.193.95.9:10808",
+  "sites": {
+   "reddit": false,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": true,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-11-01T14:25:36+00:00",
+  "uptime_24h": 24,
+  "uptime_7d": 18,
+  "twitch": {
+   "usher": true,
+   "country": "US",
+   "exit_ip": "104.243.39.62"
+  },
+  "twitch_country": "US"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "110.34.28.67:1080",
+  "latency": 2297,
+  "exit_ip": "110.34.28.67",
+  "https": true,
+  "anonymity": "elite",
+  "country": "NP",
+  "targets": {},
+  "asn": 4007,
+  "org": "Subisu Cablenet",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 78,
+  "checked_at": "2026-11-21T19:22:27+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 2297,
+    "data": {
+     "exit_ip": "110.34.28.67"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 3256,
+    "data": {
+     "exit_ip": "110.34.28.67",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:31+00:00",
+    "ms": 1202,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:33+00:00",
+    "ms": 2177,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://110.34.28.67:1080",
+  "sites": {
+   "google": false,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false
+  },
+  "streak": 2,
+  "first_seen": "2026-11-16T06:55:21+00:00",
+  "uptime_24h": 56,
+  "uptime_7d": 49,
+  "twitch": {
+   "usher": true,
+   "country": "NP",
+   "exit_ip": "110.34.28.67"
+  },
+  "twitch_country": "NP"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "178.20.45.58:1080",
+  "latency": 852,
+  "exit_ip": "178.20.45.58",
+  "https": true,
+  "anonymity": "elite",
+  "country": "RU",
+  "targets": {},
+  "asn": 48282,
+  "org": "Hosting technology LTD",
+  "hosting": true,
+  "blocklisted": false,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 852,
+    "data": {
+     "exit_ip": "178.20.45.58"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:25:36+00:00",
+    "ms": 703,
+    "data": {
+     "exit_ip": "178.20.45.58",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:25:56+00:00",
+    "ms": 11942,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:25:59+00:00",
+    "ms": 3214,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://178.20.45.58:1080",
+  "sites": {
+   "google": true
+  },
+  "streak": 3,
+  "first_seen": "2026-11-21T17:30:25+00:00",
+  "uptime_24h": 12,
+  "uptime_7d": 2,
+  "twitch": {
+   "usher": true,
+   "country": "RU",
+   "exit_ip": "178.20.45.58"
+  },
+  "twitch_country": "RU"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "115.187.50.40:5678",
+  "latency": 1177,
+  "exit_ip": "115.187.50.40",
+  "https": true,
+  "anonymity": "elite",
+  "country": "IN",
+  "targets": {},
+  "asn": 23860,
+  "org": "Alliance Broadband Services Pvt. Ltd.",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 81,
+  "checked_at": "2026-11-21T19:22:30+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 1177,
+    "data": {
+     "exit_ip": "115.187.50.40"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:31+00:00",
+    "ms": 1171,
+    "data": {
+     "exit_ip": "115.187.50.40",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:33+00:00",
+    "ms": 1368,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:35+00:00",
+    "ms": 1916,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://115.187.50.40:5678",
+  "sites": {},
+  "streak": 1,
+  "first_seen": "2026-10-23T01:47:52+00:00",
+  "uptime_24h": 32,
+  "uptime_7d": 29,
+  "twitch": {
+   "usher": true,
+   "country": "IN",
+   "exit_ip": "115.187.50.40"
+  },
+  "twitch_country": "IN"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "70.38.101.182:40000",
+  "latency": 2208,
+  "exit_ip": "104.28.246.50",
+  "https": true,
+  "anonymity": "elite",
+  "country": "CA",
+  "targets": {},
+  "asn": 13335,
+  "org": "Cloudflare, Inc.",
+  "hosting": true,
+  "blocklisted": true,
+  "speed_kbps": 440,
+  "checked_at": "2026-11-21T19:22:31+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:31+00:00",
+    "ms": 2208,
+    "data": {
+     "exit_ip": "104.28.246.50"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:34+00:00",
+    "ms": 3026,
+    "data": {
+     "exit_ip": "104.28.246.50",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:36+00:00",
+    "ms": 2644,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:38+00:00",
+    "ms": 2121,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://70.38.101.182:40000",
+  "sites": {
+   "google": false,
+   "reddit": true,
+   "amazon": true,
+   "instagram": false,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-11-20T12:34:16+00:00",
+  "uptime_24h": 12,
+  "uptime_7d": 2,
+  "twitch": {
+   "usher": true,
+   "country": "CA",
+   "exit_ip": "104.28.246.50"
+  },
+  "twitch_country": "CA"
+ },
+ {
+  "ptype": "http",
+  "proxy": "70.38.101.182:40000",
+  "latency": 2209,
+  "exit_ip": "104.28.246.50",
+  "https": true,
+  "anonymity": "elite",
+  "country": "CA",
+  "targets": {},
+  "asn": 13335,
+  "org": "Cloudflare, Inc.",
+  "hosting": true,
+  "blocklisted": true,
+  "speed_kbps": 410,
+  "checked_at": "2026-11-21T19:22:31+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:31+00:00",
+    "ms": 2209,
+    "data": {
+     "exit_ip": "104.28.246.50"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:34+00:00",
+    "ms": 3050,
+    "data": {
+     "exit_ip": "104.28.246.50",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:35+00:00",
+    "ms": 1738,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:38+00:00",
+    "ms": 2403,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "http://70.38.101.182:40000",
+  "sites": {
+   "google": false,
+   "reddit": true,
+   "amazon": false,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-11-19T19:28:42+00:00",
+  "uptime_24h": 24,
+  "uptime_7d": 5,
+  "twitch": {
+   "usher": true,
+   "country": "CA",
+   "exit_ip": "104.28.246.50"
+  },
+  "twitch_country": "CA"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "125.227.169.85:38157",
+  "latency": 1169,
+  "exit_ip": "125.227.169.85",
+  "https": true,
+  "anonymity": "elite",
+  "country": "TW",
+  "targets": {},
+  "asn": 3462,
+  "org": "Chunghwa Telecom Co., Ltd.",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 1169,
+    "data": {
+     "exit_ip": "125.227.169.85"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 1143,
+    "data": {
+     "exit_ip": "125.227.169.85",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 1131,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 1814,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://125.227.169.85:38157",
+  "sites": {},
+  "streak": 3,
+  "first_seen": "2026-09-26T18:32:14+00:00",
+  "uptime_24h": 84,
+  "uptime_7d": 82,
+  "twitch": {
+   "usher": true,
+   "country": "TW",
+   "exit_ip": "125.227.169.85"
+  },
+  "twitch_country": "TW"
+ },
+ {
+  "ptype": "http",
+  "proxy": "94.183.206.215:8080",
+  "latency": 5391,
+  "exit_ip": "82.196.4.61",
+  "https": true,
+  "anonymity": "elite",
+  "country": "NL",
+  "targets": {},
+  "asn": 14061,
+  "org": "DigitalOcean, LLC",
+  "hosting": true,
+  "blocklisted": false,
+  "speed_kbps": 30,
+  "checked_at": "2026-11-21T19:22:30+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 5391,
+    "data": {
+     "exit_ip": "82.196.4.61"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:33+00:00",
+    "ms": 3351,
+    "data": {
+     "exit_ip": "82.196.4.61",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:36+00:00",
+    "ms": 2878,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:45+00:00",
+    "ms": 8611,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "http://94.183.206.215:8080",
+  "sites": {
+   "amazon": false,
+   "instagram": false,
+   "tiktok": true
+  },
+  "streak": 6,
+  "first_seen": "2026-10-29T14:31:00+00:00",
+  "uptime_24h": 52,
+  "uptime_7d": 71,
+  "twitch": {
+   "usher": true,
+   "country": "NL",
+   "exit_ip": "82.196.4.61"
+  },
+  "twitch_country": "NL"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "69.36.63.128:1080",
+  "latency": 205,
+  "exit_ip": "173.225.205.172",
+  "https": true,
+  "anonymity": "elite",
+  "country": "US",
+  "targets": {},
+  "asn": 26479,
+  "org": "Point Broadband Fiber Holding, LLC",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:24+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:24+00:00",
+    "ms": 205,
+    "data": {
+     "exit_ip": "173.225.205.172"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 136,
+    "data": {
+     "exit_ip": "173.225.205.172",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1188,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:29+00:00",
+    "ms": 2439,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://69.36.63.128:1080",
+  "sites": {
+   "google": true
+  },
+  "streak": 2,
+  "first_seen": "2026-09-27T08:38:58+00:00",
+  "uptime_24h": 36,
+  "uptime_7d": 22,
+  "twitch": {
+   "usher": true,
+   "country": "US",
+   "exit_ip": "173.225.205.172"
+  },
+  "twitch_country": "US"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "159.192.97.129:5678",
+  "latency": 1254,
+  "exit_ip": "159.192.97.129",
+  "https": true,
+  "anonymity": "elite",
+  "country": "TH",
+  "targets": {},
+  "asn": 131090,
+  "org": "National Telecom Public Company Limited",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 63,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1254,
+    "data": {
+     "exit_ip": "159.192.97.129"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:25:46+00:00",
+    "ms": 3286,
+    "data": {
+     "exit_ip": "159.192.97.129",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:25:52+00:00",
+    "ms": 5308,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:25:56+00:00",
+    "ms": 4749,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://159.192.97.129:5678",
+  "sites": {
+   "reddit": true
+  },
+  "streak": 1,
+  "first_seen": "2026-09-26T22:44:20+00:00",
+  "uptime_24h": 28,
+  "uptime_7d": 29,
+  "twitch": {
+   "usher": true,
+   "country": "TH",
+   "exit_ip": "159.192.97.129"
+  },
+  "twitch_country": "TH"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "110.34.1.156:1080",
+  "latency": 1476,
+  "exit_ip": "110.34.1.156",
+  "https": true,
+  "anonymity": "elite",
+  "country": "NP",
+  "targets": {},
+  "asn": 4007,
+  "org": "Subisu Cablenet",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 71,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1476,
+    "data": {
+     "exit_ip": "110.34.1.156"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:37+00:00",
+    "ms": 3369,
+    "data": {
+     "exit_ip": "110.34.1.156",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:40+00:00",
+    "ms": 3345,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:42+00:00",
+    "ms": 2347,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://110.34.1.156:1080",
+  "sites": {
+   "google": false,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-11-16T08:49:56+00:00",
+  "uptime_24h": 52,
+  "uptime_7d": 45,
+  "twitch": {
+   "usher": true,
+   "country": "NP",
+   "exit_ip": "110.34.1.156"
+  },
+  "twitch_country": "NP"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "5.75.133.113:10802",
+  "latency": 2113,
+  "exit_ip": "155.2.217.11",
+  "https": true,
+  "anonymity": "elite",
+  "country": "HU",
+  "targets": {},
+  "asn": 212238,
+  "org": "Datacamp Limited",
+  "hosting": true,
+  "blocklisted": false,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 2113,
+    "data": {
+     "exit_ip": "155.2.217.11"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:29+00:00",
+    "ms": 2140,
+    "data": {
+     "exit_ip": "155.2.217.11",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 1472,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:32+00:00",
+    "ms": 2067,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://5.75.133.113:10802",
+  "sites": {
+   "tiktok": true
+  },
+  "streak": 5,
+  "first_seen": "2026-09-26T18:32:14+00:00",
+  "uptime_24h": 56,
+  "uptime_7d": 42,
+  "twitch": {
+   "usher": true,
+   "country": "JP",
+   "exit_ip": "203.25.124.239"
+  },
+  "twitch_country": "JP"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "45.74.31.42:4041",
+  "latency": 1878,
+  "exit_ip": "14.248.80.79",
+  "https": true,
+  "anonymity": "elite",
+  "country": "VN",
+  "targets": {},
+  "asn": 45899,
+  "org": "VNPT Corp",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 94,
+  "checked_at": "2026-11-21T19:22:54+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:54+00:00",
+    "ms": 1878,
+    "data": {
+     "exit_ip": "14.248.80.79"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:57+00:00",
+    "ms": 3763,
+    "data": {
+     "exit_ip": "14.248.80.79",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:59+00:00",
+    "ms": 1831,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:23:03+00:00",
+    "ms": 3723,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://45.74.31.42:4041",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-11-04T17:26:54+00:00",
+  "uptime_24h": 16,
+  "uptime_7d": 10,
+  "twitch": {
+   "usher": true,
+   "country": "VN",
+   "exit_ip": "14.248.80.79"
+  },
+  "twitch_country": "VN"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "185.95.186.165:48293",
+  "latency": 1904,
+  "exit_ip": "185.95.186.165",
+  "https": true,
+  "anonymity": "elite",
+  "country": "IQ",
+  "targets": {},
+  "asn": 34515,
+  "org": "Next Net for Internet and IT Services LTD",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 90,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1904,
+    "data": {
+     "exit_ip": "185.95.186.165"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:25:42+00:00",
+    "ms": 5987,
+    "data": {
+     "exit_ip": "185.95.186.165",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:25:42+00:00",
+    "ms": 849,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:25:44+00:00",
+    "ms": 1307,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://185.95.186.165:48293",
+  "sites": {
+   "reddit": true,
+   "amazon": true,
+   "instagram": false,
+   "tiktok": false
+  },
+  "streak": 1,
+  "first_seen": "2026-09-26T21:32:14+00:00",
+  "uptime_24h": 36,
+  "uptime_7d": 36,
+  "twitch": {
+   "usher": true,
+   "country": "IQ",
+   "exit_ip": "185.95.186.165"
+  },
+  "twitch_country": "IQ"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "103.157.116.179:10810",
+  "latency": 1669,
+  "exit_ip": "103.79.247.49",
+  "https": true,
+  "anonymity": "elite",
+  "country": "ID",
+  "targets": {},
+  "asn": 45701,
+  "org": "Internet Madju Abad Millenindo, PT",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 72,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1669,
+    "data": {
+     "exit_ip": "103.79.247.49"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 4411,
+    "data": {
+     "exit_ip": "103.79.247.49",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:32+00:00",
+    "ms": 1358,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:35+00:00",
+    "ms": 3207,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://103.157.116.179:10810",
+  "sites": {
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-09-26T22:44:20+00:00",
+  "uptime_24h": 32,
+  "uptime_7d": 30,
+  "twitch": {
+   "usher": true,
+   "country": "ID",
+   "exit_ip": "114.12.20.218"
+  },
+  "twitch_country": "ID"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "160.226.138.129:5678",
+  "latency": 2086,
+  "exit_ip": "160.226.142.254",
+  "https": true,
+  "anonymity": "elite",
+  "country": "ZA",
+  "targets": {},
+  "asn": 328178,
+  "org": "The Computer Hut cc",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 95,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 2086,
+    "data": {
+     "exit_ip": "160.226.142.254"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 1041,
+    "data": {
+     "exit_ip": "160.226.142.254",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:37+00:00",
+    "ms": 2074,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:39+00:00",
+    "ms": 1715,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://160.226.138.129:5678",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false
+  },
+  "streak": 1,
+  "first_seen": "2026-11-04T19:26:42+00:00",
+  "uptime_24h": 24,
+  "uptime_7d": 17,
+  "twitch": {
+   "usher": true,
+   "country": "ZA",
+   "exit_ip": "160.226.142.254"
+  },
+  "twitch_country": "ZA"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "170.238.239.71:60606",
+  "latency": 3800,
+  "exit_ip": "170.238.239.71",
+  "https": true,
+  "anonymity": "elite",
+  "country": "CO",
+  "targets": {},
+  "asn": 18678,
+  "org": "INTERNEXA S.A. E.S.P",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 49,
+  "checked_at": "2026-11-21T19:22:28+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 3800,
+    "data": {
+     "exit_ip": "170.238.239.71"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:29+00:00",
+    "ms": 542,
+    "data": {
+     "exit_ip": "170.238.239.71",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:32+00:00",
+    "ms": 3655,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:33+00:00",
+    "ms": 1015,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://170.238.239.71:60606",
+  "sites": {
+   "amazon": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 2,
+  "first_seen": "2026-09-26T21:32:14+00:00",
+  "uptime_24h": 24,
+  "uptime_7d": 27,
+  "twitch": {
+   "usher": true,
+   "country": "CO",
+   "exit_ip": "170.238.239.71"
+  },
+  "twitch_country": "CO"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "176.118.232.12:5678",
+  "latency": 875,
+  "exit_ip": "176.118.232.12",
+  "https": true,
+  "anonymity": "elite",
+  "country": "RU",
+  "targets": {},
+  "asn": 47626,
+  "org": "Timer, LLC",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 875,
+    "data": {
+     "exit_ip": "176.118.232.12"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 804,
+    "data": {
+     "exit_ip": "176.118.232.12",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 755,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 1210,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://176.118.232.12:5678",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "tiktok": true
+  },
+  "streak": 2,
+  "first_seen": "2026-09-26T23:29:31+00:00",
+  "uptime_24h": 20,
+  "uptime_7d": 14,
+  "twitch": {
+   "usher": true,
+   "country": "RU",
+   "exit_ip": "176.118.232.12"
+  },
+  "twitch_country": "RU"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "119.156.27.210:5678",
+  "latency": 1128,
+  "exit_ip": "119.156.27.210",
+  "https": true,
+  "anonymity": "elite",
+  "country": "PK",
+  "targets": {},
+  "asn": 17557,
+  "org": "Pakistan Telecommuication company limited",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 1128,
+    "data": {
+     "exit_ip": "119.156.27.210"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 1098,
+    "data": {
+     "exit_ip": "119.156.27.210",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 1102,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 2759,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://119.156.27.210:5678",
+  "sites": {
+   "reddit": true,
+   "tiktok": false
+  },
+  "streak": 2,
+  "first_seen": "2026-11-15T10:31:05+00:00",
+  "uptime_24h": 32,
+  "uptime_7d": 30,
+  "twitch": {
+   "usher": true,
+   "country": "PK",
+   "exit_ip": "119.156.27.210"
+  },
+  "twitch_country": "PK"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "14.241.241.185:4145",
+  "latency": 1238,
+  "exit_ip": "14.241.241.185",
+  "https": true,
+  "anonymity": "elite",
+  "country": "VN",
+  "targets": {},
+  "asn": 45899,
+  "org": "VNPT Corp",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1238,
+    "data": {
+     "exit_ip": "14.241.241.185"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:29+00:00",
+    "ms": 3238,
+    "data": {
+     "exit_ip": "14.241.241.185",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:40+00:00",
+    "ms": 3252,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:43+00:00",
+    "ms": 3717,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://14.241.241.185:4145",
+  "sites": {
+   "reddit": true,
+   "amazon": true,
+   "instagram": false,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 2,
+  "first_seen": "2026-09-26T23:13:24+00:00",
+  "uptime_24h": 28,
+  "uptime_7d": 28,
+  "twitch": {
+   "usher": true,
+   "country": "VN",
+   "exit_ip": "14.241.241.185"
+  },
+  "twitch_country": "VN"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "103.167.156.88:1080",
+  "latency": 1308,
+  "exit_ip": "103.167.156.88",
+  "https": true,
+  "anonymity": "elite",
+  "country": "ID",
+  "targets": {},
+  "asn": 150554,
+  "org": "PT Jaringan Tiang Indonesia Group",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1308,
+    "data": {
+     "exit_ip": "103.167.156.88"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 1241,
+    "data": {
+     "exit_ip": "103.167.156.88",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:32+00:00",
+    "ms": 5344,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:34+00:00",
+    "ms": 2240,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://103.167.156.88:1080",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 2,
+  "first_seen": "2026-09-26T19:32:14+00:00",
+  "uptime_24h": 44,
+  "uptime_7d": 42,
+  "twitch": {
+   "usher": true,
+   "country": "ID",
+   "exit_ip": "103.167.156.88"
+  },
+  "twitch_country": "ID"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "190.119.41.162:1080",
+  "latency": 2711,
+  "exit_ip": "190.43.17.93",
+  "https": true,
+  "anonymity": "elite",
+  "country": "PE",
+  "targets": {},
+  "asn": 6147,
+  "org": "Telefonica del Peru S.A.A.",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 129,
+  "checked_at": "2026-11-21T19:22:30+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 2711,
+    "data": {
+     "exit_ip": "190.43.17.93"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:36+00:00",
+    "ms": 5793,
+    "data": {
+     "exit_ip": "190.43.17.93",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:39+00:00",
+    "ms": 2697,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:45+00:00",
+    "ms": 6211,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://190.119.41.162:1080",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false
+  },
+  "streak": 1,
+  "first_seen": "2026-11-20T20:28:13+00:00",
+  "uptime_24h": 44,
+  "uptime_7d": 7,
+  "twitch": {
+   "usher": true,
+   "country": "PE",
+   "exit_ip": "190.43.17.93"
+  },
+  "twitch_country": "PE"
+ },
+ {
+  "ptype": "http",
+  "proxy": "198.244.254.77:3128",
+  "latency": 2689,
+  "exit_ip": "198.244.254.77",
+  "https": true,
+  "anonymity": "transparent",
+  "country": "GB",
+  "targets": {},
+  "asn": 16276,
+  "org": "OVH SAS",
+  "hosting": true,
+  "blocklisted": false,
+  "speed_kbps": 113,
+  "checked_at": "2026-11-21T19:22:27+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 2689,
+    "data": {
+     "exit_ip": "198.244.254.77"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:31+00:00",
+    "ms": 3754,
+    "data": {
+     "exit_ip": "198.244.254.77",
+     "anonymity": "transparent"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:34+00:00",
+    "ms": 3708,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:40+00:00",
+    "ms": 5865,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "http://198.244.254.77:3128",
+  "sites": {
+   "google": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-10-08T13:40:35+00:00",
+  "uptime_24h": 56,
+  "uptime_7d": 63,
+  "twitch": {
+   "usher": true,
+   "country": "GB",
+   "exit_ip": "198.244.254.77"
+  },
+  "twitch_country": "GB"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "154.66.108.52:3629",
+  "latency": 2141,
+  "exit_ip": "154.66.108.52",
+  "https": true,
+  "anonymity": "elite",
+  "country": "LS",
+  "targets": {},
+  "asn": 37642,
+  "org": "Comnet Pty Ltd",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 69,
+  "checked_at": "2026-11-21T19:22:31+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:31+00:00",
+    "ms": 2141,
+    "data": {
+     "exit_ip": "154.66.108.52"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:34+00:00",
+    "ms": 1140,
+    "data": {
+     "exit_ip": "154.66.108.52",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:36+00:00",
+    "ms": 1196,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:37+00:00",
+    "ms": 1855,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://154.66.108.52:3629",
+  "sites": {
+   "amazon": true,
+   "instagram": true,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-09-26T22:32:14+00:00",
+  "uptime_24h": 24,
+  "uptime_7d": 29,
+  "twitch": {
+   "usher": true,
+   "country": "LS",
+   "exit_ip": "154.66.108.52"
+  },
+  "twitch_country": "LS"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "61.111.252.12:5555",
+  "latency": 3787,
+  "exit_ip": "61.111.252.12",
+  "https": true,
+  "anonymity": "elite",
+  "country": "KR",
+  "targets": {},
+  "asn": 138195,
+  "org": "MOACK.Co.LTD",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:28+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 3787,
+    "data": {
+     "exit_ip": "61.111.252.12"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:33+00:00",
+    "ms": 4811,
+    "data": {
+     "exit_ip": "61.111.252.12",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:36+00:00",
+    "ms": 3331,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:44+00:00",
+    "ms": 8091,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://61.111.252.12:5555",
+  "sites": {
+   "instagram": false,
+   "discord": true
+  },
+  "streak": 5,
+  "first_seen": "2026-11-21T15:28:12+00:00",
+  "uptime_24h": 20,
+  "uptime_7d": 3,
+  "twitch": {
+   "usher": true,
+   "country": "KR",
+   "exit_ip": "61.111.252.12"
+  },
+  "twitch_country": "KR"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "202.162.197.57:4145",
+  "latency": 1475,
+  "exit_ip": "202.162.197.57",
+  "https": true,
+  "anonymity": "elite",
+  "country": "ID",
+  "targets": {},
+  "asn": 23679,
+  "org": "PT. Media Antar Nusa",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 46,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1475,
+    "data": {
+     "exit_ip": "202.162.197.57"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 2500,
+    "data": {
+     "exit_ip": "202.162.197.57",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 1711,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:32+00:00",
+    "ms": 2390,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://202.162.197.57:4145",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-10-30T10:28:09+00:00",
+  "uptime_24h": 48,
+  "uptime_7d": 35,
+  "twitch": {
+   "usher": true,
+   "country": "ID",
+   "exit_ip": "202.162.197.57"
+  },
+  "twitch_country": "ID"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "70.38.101.182:40000",
+  "latency": 2201,
+  "exit_ip": "104.28.246.50",
+  "https": true,
+  "anonymity": "elite",
+  "country": "CA",
+  "targets": {},
+  "asn": 13335,
+  "org": "Cloudflare, Inc.",
+  "hosting": true,
+  "blocklisted": true,
+  "speed_kbps": 69,
+  "checked_at": "2026-11-21T19:22:31+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:31+00:00",
+    "ms": 2201,
+    "data": {
+     "exit_ip": "104.28.246.50"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:34+00:00",
+    "ms": 3219,
+    "data": {
+     "exit_ip": "104.28.246.50",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:36+00:00",
+    "ms": 2241,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:38+00:00",
+    "ms": 2204,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://70.38.101.182:40000",
+  "sites": {
+   "google": false,
+   "reddit": true,
+   "amazon": true,
+   "instagram": false,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-11-19T19:28:42+00:00",
+  "uptime_24h": 16,
+  "uptime_7d": 4,
+  "twitch": {
+   "usher": true,
+   "country": "CA",
+   "exit_ip": "104.28.246.50"
+  },
+  "twitch_country": "CA"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "5.75.133.113:10805",
+  "latency": 4966,
+  "exit_ip": "23.234.121.112",
+  "https": true,
+  "anonymity": "elite",
+  "country": "CA",
+  "targets": {},
+  "asn": 11878,
+  "org": "tzulo, inc.",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 56,
+  "checked_at": "2026-11-21T19:22:29+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:29+00:00",
+    "ms": 4966,
+    "data": {
+     "exit_ip": "23.234.121.112"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:35+00:00",
+    "ms": 5603,
+    "data": {
+     "exit_ip": "23.234.121.112",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:42+00:00",
+    "ms": 7505,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:48+00:00",
+    "ms": 6015,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://5.75.133.113:10805",
+  "sites": {
+   "amazon": true,
+   "instagram": false,
+   "tiktok": true
+  },
+  "streak": 2,
+  "first_seen": "2026-09-27T01:14:28+00:00",
+  "uptime_24h": 48,
+  "uptime_7d": 61,
+  "twitch": {
+   "usher": true,
+   "country": "CA",
+   "exit_ip": "23.234.121.112"
+  },
+  "twitch_country": "CA"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "165.99.90.2:1080",
+  "latency": 2327,
+  "exit_ip": "165.99.90.14",
+  "https": true,
+  "anonymity": "elite",
+  "country": "BD",
+  "targets": {},
+  "asn": 132475,
+  "org": "Future Communication and Network",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 72,
+  "checked_at": "2026-11-21T19:22:31+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:31+00:00",
+    "ms": 2327,
+    "data": {
+     "exit_ip": "165.99.90.14"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:33+00:00",
+    "ms": 2522,
+    "data": {
+     "exit_ip": "165.99.90.14",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:44+00:00",
+    "ms": 3359,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:46+00:00",
+    "ms": 2084,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://165.99.90.2:1080",
+  "sites": {
+   "google": false,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-10-11T07:45:59+00:00",
+  "uptime_24h": 28,
+  "uptime_7d": 24,
+  "twitch": {
+   "usher": true,
+   "country": "BD",
+   "exit_ip": "165.99.90.14"
+  },
+  "twitch_country": "BD"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "160.226.220.30:1080",
+  "latency": 2212,
+  "exit_ip": "160.226.220.30",
+  "https": true,
+  "anonymity": "elite",
+  "country": "ZA",
+  "targets": {},
+  "asn": 37542,
+  "org": "Iclix (PTY) Ltd",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 64,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 2212,
+    "data": {
+     "exit_ip": "160.226.220.30"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:32+00:00",
+    "ms": 1134,
+    "data": {
+     "exit_ip": "160.226.220.30",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:33+00:00",
+    "ms": 1139,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:37+00:00",
+    "ms": 3904,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://160.226.220.30:1080",
+  "sites": {
+   "tiktok": false
+  },
+  "streak": 1,
+  "first_seen": "2026-09-26T22:32:14+00:00",
+  "uptime_24h": 20,
+  "uptime_7d": 20,
+  "twitch": {
+   "usher": true,
+   "country": "ZA",
+   "exit_ip": "160.226.220.30"
+  },
+  "twitch_country": "ZA"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "45.74.31.47:4231",
+  "latency": 3088,
+  "exit_ip": "14.248.80.79",
+  "https": true,
+  "anonymity": "elite",
+  "country": "VN",
+  "targets": {},
+  "asn": 45899,
+  "org": "VNPT Corp",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 138,
+  "checked_at": "2026-11-21T19:22:48+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:48+00:00",
+    "ms": 3088,
+    "data": {
+     "exit_ip": "14.248.80.79"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:59+00:00",
+    "ms": 2985,
+    "data": {
+     "exit_ip": "14.248.80.79",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:23:01+00:00",
+    "ms": 2148,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:23:05+00:00",
+    "ms": 4385,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://45.74.31.47:4231",
+  "sites": {},
+  "streak": 1,
+  "first_seen": "2026-11-12T10:33:27+00:00",
+  "uptime_24h": 4,
+  "uptime_7d": 2,
+  "twitch": {
+   "usher": true,
+   "country": "VN",
+   "exit_ip": "14.248.80.79"
+  },
+  "twitch_country": "VN"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "91.211.100.35:44744",
+  "latency": 2739,
+  "exit_ip": "91.211.100.35",
+  "https": true,
+  "anonymity": "elite",
+  "country": "PL",
+  "targets": {},
+  "asn": 34494,
+  "org": "Lukman Multimedia Sp. z o.o",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 15,
+  "checked_at": "2026-11-21T19:22:27+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 2739,
+    "data": {
+     "exit_ip": "91.211.100.35"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:38+00:00",
+    "ms": 3891,
+    "data": {
+     "exit_ip": "91.211.100.35",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:44+00:00",
+    "ms": 5644,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:50+00:00",
+    "ms": 5829,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://91.211.100.35:44744",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "instagram": true,
+   "tiktok": true,
+   "discord": true
+  },
+  "streak": 5,
+  "first_seen": "2026-09-26T23:13:24+00:00",
+  "uptime_24h": 56,
+  "uptime_7d": 31,
+  "twitch": {
+   "usher": true,
+   "country": "PL",
+   "exit_ip": "91.211.100.35"
+  },
+  "twitch_country": "PL"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "45.74.31.41:4193",
+  "latency": 2106,
+  "exit_ip": "14.248.80.79",
+  "https": true,
+  "anonymity": "elite",
+  "country": "VN",
+  "targets": {},
+  "asn": 45899,
+  "org": "VNPT Corp",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 2106,
+    "data": {
+     "exit_ip": "14.248.80.79"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 1325,
+    "data": {
+     "exit_ip": "14.248.80.79",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:29+00:00",
+    "ms": 1259,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:32+00:00",
+    "ms": 2718,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://45.74.31.41:4193",
+  "sites": {
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 2,
+  "first_seen": "2026-11-14T00:46:29+00:00",
+  "uptime_24h": 8,
+  "uptime_7d": 4,
+  "twitch": {
+   "usher": true,
+   "country": "VN",
+   "exit_ip": "14.248.80.79"
+  },
+  "twitch_country": "VN"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "103.154.76.90:12",
+  "latency": 2423,
+  "exit_ip": "103.154.76.90",
+  "https": true,
+  "anonymity": "elite",
+  "country": "ID",
+  "targets": {},
+  "asn": 140481,
+  "org": "PT Tonggak Teknologi Netikom",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:27+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 2423,
+    "data": {
+     "exit_ip": "103.154.76.90"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 3401,
+    "data": {
+     "exit_ip": "103.154.76.90",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:34+00:00",
+    "ms": 3680,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:36+00:00",
+    "ms": 2150,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://103.154.76.90:12",
+  "sites": {
+   "reddit": true,
+   "amazon": true,
+   "instagram": true
+  },
+  "streak": 2,
+  "first_seen": "2026-09-26T22:32:14+00:00",
+  "uptime_24h": 32,
+  "uptime_7d": 30,
+  "twitch": {
+   "usher": true,
+   "country": "ID",
+   "exit_ip": "103.154.76.90"
+  },
+  "twitch_country": "ID"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "154.29.145.165:1080",
+  "latency": 5367,
+  "exit_ip": "154.29.145.165",
+  "https": true,
+  "anonymity": "elite",
+  "country": "US",
+  "targets": {},
+  "asn": 979,
+  "org": "NetLab Global",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:30+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 5367,
+    "data": {
+     "exit_ip": "154.29.145.165"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:37+00:00",
+    "ms": 7300,
+    "data": {
+     "exit_ip": "154.29.145.165",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:42+00:00",
+    "ms": 5403,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:47+00:00",
+    "ms": 4999,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://154.29.145.165:1080",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": false,
+   "tiktok": true,
+   "discord": true
+  },
+  "streak": 3,
+  "first_seen": "2026-11-18T04:32:58+00:00",
+  "uptime_24h": 32,
+  "uptime_7d": 8,
+  "twitch": {
+   "usher": true,
+   "country": "US",
+   "exit_ip": "154.29.145.165"
+  },
+  "twitch_country": "US"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "45.74.31.42:4047",
+  "latency": 3335,
+  "exit_ip": "14.248.80.79",
+  "https": true,
+  "anonymity": "elite",
+  "country": "VN",
+  "targets": {},
+  "asn": 45899,
+  "org": "VNPT Corp",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 105,
+  "checked_at": "2026-11-21T19:22:45+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:45+00:00",
+    "ms": 3335,
+    "data": {
+     "exit_ip": "14.248.80.79"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:49+00:00",
+    "ms": 4044,
+    "data": {
+     "exit_ip": "14.248.80.79",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:51+00:00",
+    "ms": 1827,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:53+00:00",
+    "ms": 2247,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://45.74.31.42:4047",
+  "sites": {
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-11-03T05:27:35+00:00",
+  "uptime_24h": 4,
+  "uptime_7d": 8,
+  "twitch": {
+   "usher": true,
+   "country": "VN",
+   "exit_ip": "14.248.80.79"
+  },
+  "twitch_country": "VN"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "45.74.31.46:4036",
+  "latency": 3534,
+  "exit_ip": "14.248.80.79",
+  "https": true,
+  "anonymity": "elite",
+  "country": "VN",
+  "targets": {},
+  "asn": 45899,
+  "org": "VNPT Corp",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 118,
+  "checked_at": "2026-11-21T19:23:11+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:23:11+00:00",
+    "ms": 3534,
+    "data": {
+     "exit_ip": "14.248.80.79"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:23:16+00:00",
+    "ms": 5005,
+    "data": {
+     "exit_ip": "14.248.80.79",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:23:21+00:00",
+    "ms": 4931,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:23:23+00:00",
+    "ms": 1778,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://45.74.31.46:4036",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-11-11T08:38:20+00:00",
+  "uptime_24h": 4,
+  "uptime_7d": 2,
+  "twitch": {
+   "usher": true,
+   "country": "VN",
+   "exit_ip": "14.248.80.79"
+  },
+  "twitch_country": "VN"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "103.164.223.35:5678",
+  "latency": 3248,
+  "exit_ip": "103.164.223.35",
+  "https": true,
+  "anonymity": "elite",
+  "country": "ID",
+  "targets": {},
+  "asn": 17995,
+  "org": "PT iForte Global Internet",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 80,
+  "checked_at": "2026-11-21T19:22:32+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:32+00:00",
+    "ms": 3248,
+    "data": {
+     "exit_ip": "103.164.223.35"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:36+00:00",
+    "ms": 4303,
+    "data": {
+     "exit_ip": "103.164.223.35",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:46+00:00",
+    "ms": 2210,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:49+00:00",
+    "ms": 2926,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://103.164.223.35:5678",
+  "sites": {
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-10-24T19:29:43+00:00",
+  "uptime_24h": 16,
+  "uptime_7d": 17,
+  "twitch": {
+   "usher": true,
+   "country": "ID",
+   "exit_ip": "103.164.223.35"
+  },
+  "twitch_country": "ID"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "27.147.161.10:1080",
+  "latency": 3411,
+  "exit_ip": "27.147.161.10",
+  "https": true,
+  "anonymity": "elite",
+  "country": "BD",
+  "targets": {},
+  "asn": 23688,
+  "org": "Link3 Technologies Limited",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:28+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 3411,
+    "data": {
+     "exit_ip": "27.147.161.10"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:29+00:00",
+    "ms": 1264,
+    "data": {
+     "exit_ip": "27.147.161.10",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:33+00:00",
+    "ms": 1262,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:36+00:00",
+    "ms": 3063,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://27.147.161.10:1080",
+  "sites": {
+   "google": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 2,
+  "first_seen": "2026-09-26T22:44:20+00:00",
+  "uptime_24h": 32,
+  "uptime_7d": 25,
+  "twitch": {
+   "usher": true,
+   "country": "BD",
+   "exit_ip": "27.147.161.10"
+  },
+  "twitch_country": "BD"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "49.0.156.20:32000",
+  "latency": 3382,
+  "exit_ip": "49.0.156.20",
+  "https": true,
+  "anonymity": "elite",
+  "country": "MN",
+  "targets": {},
+  "asn": 38818,
+  "org": "YokozunaNET",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 63,
+  "checked_at": "2026-11-21T19:22:28+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 3382,
+    "data": {
+     "exit_ip": "49.0.156.20"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:25:47+00:00",
+    "ms": 4365,
+    "data": {
+     "exit_ip": "49.0.156.20",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:25:50+00:00",
+    "ms": 2281,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:25:52+00:00",
+    "ms": 2070,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://49.0.156.20:32000",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-11-03T06:34:34+00:00",
+  "uptime_24h": 40,
+  "uptime_7d": 32,
+  "twitch": {
+   "usher": true,
+   "country": "MN",
+   "exit_ip": "49.0.156.20"
+  },
+  "twitch_country": "MN"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "49.13.22.249:10808",
+  "latency": 4249,
+  "exit_ip": "82.102.30.18",
+  "https": true,
+  "anonymity": "elite",
+  "country": "US",
+  "targets": {},
+  "asn": 9009,
+  "org": "M247 Europe SRL",
+  "hosting": true,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:29+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:29+00:00",
+    "ms": 4249,
+    "data": {
+     "exit_ip": "82.102.30.18"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 1390,
+    "data": {
+     "exit_ip": "82.102.30.18",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:32+00:00",
+    "ms": 2457,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:38+00:00",
+    "ms": 5799,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://49.13.22.249:10808",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": false,
+   "instagram": false,
+   "tiktok": true,
+   "discord": true
+  },
+  "streak": 2,
+  "first_seen": "2026-09-27T07:02:37+00:00",
+  "uptime_24h": 72,
+  "uptime_7d": 49,
+  "twitch": {
+   "usher": true,
+   "country": "US",
+   "exit_ip": "82.102.30.18"
+  },
+  "twitch_country": "US"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "103.43.128.123:5678",
+  "latency": 4370,
+  "exit_ip": "103.43.128.123",
+  "https": true,
+  "anonymity": "elite",
+  "country": "ID",
+  "targets": {},
+  "asn": 133797,
+  "org": "PT Rekajasa Akses",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:29+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:29+00:00",
+    "ms": 4370,
+    "data": {
+     "exit_ip": "103.43.128.123"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:31+00:00",
+    "ms": 2291,
+    "data": {
+     "exit_ip": "103.43.128.123",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:32+00:00",
+    "ms": 1249,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:39+00:00",
+    "ms": 7176,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://103.43.128.123:5678",
+  "sites": {
+   "reddit": true,
+   "instagram": true,
+   "tiktok": false
+  },
+  "streak": 2,
+  "first_seen": "2026-11-13T22:28:56+00:00",
+  "uptime_24h": 40,
+  "uptime_7d": 46,
+  "twitch": {
+   "usher": true,
+   "country": "ID",
+   "exit_ip": "103.43.128.123"
+  },
+  "twitch_country": "ID"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "196.0.111.186:46048",
+  "latency": 3380,
+  "exit_ip": "196.0.111.186",
+  "https": true,
+  "anonymity": "elite",
+  "country": "UG",
+  "targets": {},
+  "asn": 21491,
+  "org": "Uganda Telecom",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 53,
+  "checked_at": "2026-11-21T19:22:28+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 3380,
+    "data": {
+     "exit_ip": "196.0.111.186"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:31+00:00",
+    "ms": 3274,
+    "data": {
+     "exit_ip": "196.0.111.186",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:33+00:00",
+    "ms": 1408,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:36+00:00",
+    "ms": 3174,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://196.0.111.186:46048",
+  "sites": {
+   "google": false,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-09-26T21:32:14+00:00",
+  "uptime_24h": 36,
+  "uptime_7d": 34,
+  "twitch": {
+   "usher": true,
+   "country": "UG",
+   "exit_ip": "196.0.111.186"
+  },
+  "twitch_country": "UG"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "45.74.31.46:4148",
+  "latency": 4608,
+  "exit_ip": "14.248.80.79",
+  "https": true,
+  "anonymity": "elite",
+  "country": "VN",
+  "targets": {},
+  "asn": 45899,
+  "org": "VNPT Corp",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 108,
+  "checked_at": "2026-11-21T19:23:05+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:23:05+00:00",
+    "ms": 4608,
+    "data": {
+     "exit_ip": "14.248.80.79"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:23:06+00:00",
+    "ms": 1235,
+    "data": {
+     "exit_ip": "14.248.80.79",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:23:08+00:00",
+    "ms": 2071,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:23:16+00:00",
+    "ms": 7996,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://45.74.31.46:4148",
+  "sites": {},
+  "streak": 1,
+  "first_seen": "2026-11-10T04:27:51+00:00",
+  "uptime_24h": 4,
+  "uptime_7d": 5,
+  "twitch": {
+   "usher": true,
+   "country": "VN",
+   "exit_ip": "14.248.80.79"
+  },
+  "twitch_country": "VN"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "212.50.19.150:4153",
+  "latency": 656,
+  "exit_ip": "212.50.19.150",
+  "https": true,
+  "anonymity": "elite",
+  "country": "BG",
+  "targets": {},
+  "asn": 8717,
+  "org": "A1 Bulgaria EAD",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 656,
+    "data": {
+     "exit_ip": "212.50.19.150"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 598,
+    "data": {
+     "exit_ip": "212.50.19.150",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 585,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 1027,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://212.50.19.150:4153",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": true,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-09-26T22:32:14+00:00",
+  "uptime_24h": 40,
+  "uptime_7d": 26,
+  "twitch": {
+   "usher": true,
+   "country": "BG",
+   "exit_ip": "212.50.19.150"
+  },
+  "twitch_country": "BG"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "5.255.103.55:1080",
+  "latency": 671,
+  "exit_ip": "5.255.103.55",
+  "https": true,
+  "anonymity": "elite",
+  "country": "NL",
+  "targets": {},
+  "asn": 60404,
+  "org": "The Infrastructure Group B.V.",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 671,
+    "data": {
+     "exit_ip": "5.255.103.55"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 4900,
+    "data": {
+     "exit_ip": "5.255.103.55",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:44+00:00",
+    "ms": 916,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:46+00:00",
+    "ms": 1483,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://5.255.103.55:1080",
+  "sites": {},
+  "streak": 1,
+  "first_seen": "2026-09-27T18:10:42+00:00",
+  "uptime_24h": 52,
+  "uptime_7d": 64,
+  "twitch": {
+   "usher": true,
+   "country": "NL",
+   "exit_ip": "5.255.103.55"
+  },
+  "twitch_country": "NL"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "185.190.90.2:4145",
+  "latency": 676,
+  "exit_ip": "185.190.90.2",
+  "https": true,
+  "anonymity": "elite",
+  "country": "AL",
+  "targets": {},
+  "asn": 212637,
+  "org": "Lightnet Sh.p.k.",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 676,
+    "data": {
+     "exit_ip": "185.190.90.2"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 594,
+    "data": {
+     "exit_ip": "185.190.90.2",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 597,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 1028,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://185.190.90.2:4145",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": false,
+   "tiktok": false
+  },
+  "streak": 1,
+  "first_seen": "2026-09-26T21:32:14+00:00",
+  "uptime_24h": 32,
+  "uptime_7d": 27,
+  "twitch": {
+   "usher": true,
+   "country": "AL",
+   "exit_ip": "185.190.90.2"
+  },
+  "twitch_country": "AL"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "31.43.63.70:4145",
+  "latency": 721,
+  "exit_ip": "31.43.63.70",
+  "https": true,
+  "anonymity": "elite",
+  "country": "UA",
+  "targets": {},
+  "asn": 50581,
+  "org": "Ukrainian Telecommunication Group LLC",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 721,
+    "data": {
+     "exit_ip": "31.43.63.70"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 645,
+    "data": {
+     "exit_ip": "31.43.63.70",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 642,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:33+00:00",
+    "ms": 5295,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://31.43.63.70:4145",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-09-26T23:29:31+00:00",
+  "uptime_24h": 28,
+  "uptime_7d": 16,
+  "twitch": {
+   "usher": true,
+   "country": "UA",
+   "exit_ip": "31.43.63.70"
+  },
+  "twitch_country": "UA"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "138.255.240.66:40736",
+  "latency": 805,
+  "exit_ip": "138.255.240.66",
+  "https": true,
+  "anonymity": "elite",
+  "country": "BR",
+  "targets": {},
+  "asn": 263981,
+  "org": "DAVID DE SALLES BRASIL JUNIOR - ME",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 805,
+    "data": {
+     "exit_ip": "138.255.240.66"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 2770,
+    "data": {
+     "exit_ip": "138.255.240.66",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:33+00:00",
+    "ms": 5127,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:34+00:00",
+    "ms": 1149,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://138.255.240.66:40736",
+  "sites": {
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-09-26T22:44:20+00:00",
+  "uptime_24h": 68,
+  "uptime_7d": 48,
+  "twitch": {
+   "usher": true,
+   "country": "BR",
+   "exit_ip": "138.255.240.66"
+  },
+  "twitch_country": "BR"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "79.98.32.110:1080",
+  "latency": 826,
+  "exit_ip": "79.98.32.110",
+  "https": true,
+  "anonymity": "elite",
+  "country": "TR",
+  "targets": {},
+  "asn": 216472,
+  "org": "High Speed For Internet Services L.L.C",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:30+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 826,
+    "data": {
+     "exit_ip": "79.98.32.110"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:34+00:00",
+    "ms": 3884,
+    "data": {
+     "exit_ip": "79.98.32.110",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:35+00:00",
+    "ms": 1015,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:37+00:00",
+    "ms": 2590,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://79.98.32.110:1080",
+  "sites": {
+   "google": true,
+   "reddit": true
+  },
+  "streak": 1,
+  "first_seen": "2026-11-06T17:27:07+00:00",
+  "uptime_24h": 20,
+  "uptime_7d": 24,
+  "twitch": {
+   "usher": true,
+   "country": "GB",
+   "exit_ip": "79.98.32.110"
+  },
+  "twitch_country": "GB"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "185.100.85.64:1080",
+  "latency": 1001,
+  "exit_ip": "88.218.50.172",
+  "https": true,
+  "anonymity": "elite",
+  "country": "PL",
+  "targets": {},
+  "asn": 200088,
+  "org": "Artnet Sp. z o.o.",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:29+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:29+00:00",
+    "ms": 1001,
+    "data": {
+     "exit_ip": "88.218.50.172"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 1074,
+    "data": {
+     "exit_ip": "88.218.50.172",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:31+00:00",
+    "ms": 1043,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:33+00:00",
+    "ms": 1607,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://185.100.85.64:1080",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": true,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-11-20T23:29:10+00:00",
+  "uptime_24h": 24,
+  "uptime_7d": 4,
+  "twitch": {
+   "usher": true,
+   "country": "PL",
+   "exit_ip": "88.218.50.172"
+  },
+  "twitch_country": "PL"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "103.155.131.38:1080",
+  "latency": 1211,
+  "exit_ip": "103.155.131.38",
+  "https": true,
+  "anonymity": "elite",
+  "country": "IN",
+  "targets": {},
+  "asn": 141480,
+  "org": "Haash Media",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:25+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:25+00:00",
+    "ms": 1211,
+    "data": {
+     "exit_ip": "103.155.131.38"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:31+00:00",
+    "ms": 5148,
+    "data": {
+     "exit_ip": "103.155.131.38",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:39+00:00",
+    "ms": 1166,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:42+00:00",
+    "ms": 2700,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://103.155.131.38:1080",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-11-20T20:28:13+00:00",
+  "uptime_24h": 56,
+  "uptime_7d": 8,
+  "twitch": {
+   "usher": true,
+   "country": "IN",
+   "exit_ip": "103.155.131.38"
+  },
+  "twitch_country": "IN"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "103.229.47.120:4153",
+  "latency": 1245,
+  "exit_ip": "103.229.47.120",
+  "https": true,
+  "anonymity": "elite",
+  "country": "BD",
+  "targets": {},
+  "asn": 59340,
+  "org": "Help Line",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1245,
+    "data": {
+     "exit_ip": "103.229.47.120"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 2326,
+    "data": {
+     "exit_ip": "103.229.47.120",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:32+00:00",
+    "ms": 2244,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:34+00:00",
+    "ms": 1913,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://103.229.47.120:4153",
+  "sites": {
+   "amazon": true,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-11-10T07:25:53+00:00",
+  "uptime_24h": 40,
+  "uptime_7d": 28,
+  "twitch": {
+   "usher": true,
+   "country": "BD",
+   "exit_ip": "103.229.47.120"
+  },
+  "twitch_country": "BD"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "163.128.137.239:1080",
+  "latency": 1265,
+  "exit_ip": "163.128.137.239",
+  "https": true,
+  "anonymity": "elite",
+  "country": "ID",
+  "targets": {},
+  "asn": 154583,
+  "org": "PT DIGITAL MYFREND SOLUSINDO",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:30+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 1265,
+    "data": {
+     "exit_ip": "163.128.137.239"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:33+00:00",
+    "ms": 1274,
+    "data": {
+     "exit_ip": "163.128.137.239",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:34+00:00",
+    "ms": 1254,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:36+00:00",
+    "ms": 2007,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://163.128.137.239:1080",
+  "sites": {
+   "amazon": true
+  },
+  "streak": 1,
+  "first_seen": "2026-11-06T21:25:23+00:00",
+  "uptime_24h": 24,
+  "uptime_7d": 29,
+  "twitch": {
+   "usher": true,
+   "country": "ID",
+   "exit_ip": "163.128.137.239"
+  },
+  "twitch_country": "ID"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "61.7.147.227:4145",
+  "latency": 1288,
+  "exit_ip": "61.7.147.227",
+  "https": true,
+  "anonymity": "elite",
+  "country": "TH",
+  "targets": {},
+  "asn": 131090,
+  "org": "National Telecom Public Company Limited",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1288,
+    "data": {
+     "exit_ip": "61.7.147.227"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:25:38+00:00",
+    "ms": 2289,
+    "data": {
+     "exit_ip": "61.7.147.227",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:25:44+00:00",
+    "ms": 3247,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:25:46+00:00",
+    "ms": 1944,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://61.7.147.227:4145",
+  "sites": {
+   "reddit": true
+  },
+  "streak": 1,
+  "first_seen": "2026-09-26T23:29:31+00:00",
+  "uptime_24h": 52,
+  "uptime_7d": 31,
+  "twitch": {
+   "usher": true,
+   "country": "TH",
+   "exit_ip": "61.7.147.227"
+  },
+  "twitch_country": "TH"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "103.158.13.191:100",
+  "latency": 1306,
+  "exit_ip": "45.198.33.135",
+  "https": true,
+  "anonymity": "elite",
+  "country": "ID",
+  "targets": {},
+  "asn": 138089,
+  "org": "PT.Global Media Data Prima",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:30+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 1306,
+    "data": {
+     "exit_ip": "45.198.33.135"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:32+00:00",
+    "ms": 2614,
+    "data": {
+     "exit_ip": "45.198.33.135",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:35+00:00",
+    "ms": 2609,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:40+00:00",
+    "ms": 4972,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://103.158.13.191:100",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-10-07T01:54:56+00:00",
+  "uptime_24h": 20,
+  "uptime_7d": 29,
+  "twitch": {
+   "usher": true,
+   "country": "ID",
+   "exit_ip": "45.198.33.135"
+  },
+  "twitch_country": "ID"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "1.4.195.114:4145",
+  "latency": 1333,
+  "exit_ip": "1.4.195.114",
+  "https": true,
+  "anonymity": "elite",
+  "country": "TH",
+  "targets": {},
+  "asn": 23969,
+  "org": "TOT Public Company Limited",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1333,
+    "data": {
+     "exit_ip": "1.4.195.114"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 1265,
+    "data": {
+     "exit_ip": "1.4.195.114",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 1253,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 1776,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://1.4.195.114:4145",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": false,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-09-27T15:30:42+00:00",
+  "uptime_24h": 32,
+  "uptime_7d": 33,
+  "twitch": {
+   "usher": true,
+   "country": "TH",
+   "exit_ip": "1.4.195.114"
+  },
+  "twitch_country": "TH"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "118.174.14.65:44336",
+  "latency": 1348,
+  "exit_ip": "125.26.21.166",
+  "https": true,
+  "anonymity": "elite",
+  "country": "TH",
+  "targets": {},
+  "asn": 23969,
+  "org": "TOT Public Company Limited",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1348,
+    "data": {
+     "exit_ip": "125.26.21.166"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:29+00:00",
+    "ms": 1330,
+    "data": {
+     "exit_ip": "125.26.21.166",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 1348,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:32+00:00",
+    "ms": 1878,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://118.174.14.65:44336",
+  "sites": {
+   "google": false,
+   "reddit": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-09-26T22:32:14+00:00",
+  "uptime_24h": 36,
+  "uptime_7d": 22,
+  "twitch": {
+   "usher": true,
+   "country": "TH",
+   "exit_ip": "125.26.21.166"
+  },
+  "twitch_country": "TH"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "49.13.22.249:10807",
+  "latency": 938,
+  "exit_ip": "212.102.39.87",
+  "https": true,
+  "anonymity": "elite",
+  "country": "CZ",
+  "targets": {},
+  "asn": 212238,
+  "org": "Datacamp Limited",
+  "hosting": true,
+  "blocklisted": false,
+  "speed_kbps": 18,
+  "checked_at": "2026-11-21T19:22:37+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:37+00:00",
+    "ms": 938,
+    "data": {
+     "exit_ip": "212.102.39.87"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:38+00:00",
+    "ms": 1217,
+    "data": {
+     "exit_ip": "212.102.39.87",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:40+00:00",
+    "ms": 1296,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:43+00:00",
+    "ms": 2954,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://49.13.22.249:10807",
+  "sites": {
+   "tiktok": true
+  },
+  "streak": 1,
+  "first_seen": "2026-09-26T22:32:14+00:00",
+  "uptime_24h": 52,
+  "uptime_7d": 47,
+  "twitch": {
+   "usher": true,
+   "country": "CZ",
+   "exit_ip": "212.102.39.87"
+  },
+  "twitch_country": "CZ"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "103.28.115.66:1080",
+  "latency": 1549,
+  "exit_ip": "103.28.115.66",
+  "https": true,
+  "anonymity": "elite",
+  "country": "ID",
+  "targets": {},
+  "asn": 45305,
+  "org": "Lintas Data Prima, PT",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:30+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 1549,
+    "data": {
+     "exit_ip": "103.28.115.66"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:34+00:00",
+    "ms": 3835,
+    "data": {
+     "exit_ip": "103.28.115.66",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:35+00:00",
+    "ms": 1548,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:38+00:00",
+    "ms": 2333,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://103.28.115.66:1080",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-11-21T19:29:12+00:00",
+  "uptime_24h": 4,
+  "uptime_7d": 1,
+  "twitch": {
+   "usher": true,
+   "country": "ID",
+   "exit_ip": "103.28.115.66"
+  },
+  "twitch_country": "ID"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "193.43.159.161:1080",
+  "latency": 5800,
+  "exit_ip": "193.43.159.161",
+  "https": true,
+  "anonymity": "elite",
+  "country": "SY",
+  "targets": {},
+  "asn": 29256,
+  "org": "Syrian Telecom",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 130,
+  "checked_at": "2026-11-21T19:22:34+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:34+00:00",
+    "ms": 5800,
+    "data": {
+     "exit_ip": "193.43.159.161"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:25:46+00:00",
+    "ms": 2945,
+    "data": {
+     "exit_ip": "193.43.159.161",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:25:49+00:00",
+    "ms": 2903,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:25:53+00:00",
+    "ms": 4016,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://193.43.159.161:1080",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true
+  },
+  "streak": 1,
+  "first_seen": "2026-09-26T22:32:14+00:00",
+  "uptime_24h": 16,
+  "uptime_7d": 25,
+  "twitch": {
+   "usher": true,
+   "country": "SY",
+   "exit_ip": "193.43.159.161"
+  },
+  "twitch_country": "SY"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "80.92.227.185:5678",
+  "latency": 1760,
+  "exit_ip": "80.92.227.185",
+  "https": true,
+  "anonymity": "elite",
+  "country": "UA",
+  "targets": {},
+  "asn": 1820,
+  "org": "WNET TELECOM USA Corp.",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1760,
+    "data": {
+     "exit_ip": "80.92.227.185"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 623,
+    "data": {
+     "exit_ip": "80.92.227.185",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:32+00:00",
+    "ms": 1681,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:33+00:00",
+    "ms": 1130,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://80.92.227.185:5678",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-09-27T08:15:32+00:00",
+  "uptime_24h": 36,
+  "uptime_7d": 26,
+  "twitch": {
+   "usher": true,
+   "country": "UA",
+   "exit_ip": "80.92.227.185"
+  },
+  "twitch_country": "UA"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "88.247.31.164:4153",
+  "latency": 1816,
+  "exit_ip": "88.247.31.164",
+  "https": true,
+  "anonymity": "elite",
+  "country": "TR",
+  "targets": {},
+  "asn": 9121,
+  "org": "Turk Telekomunikasyon Anonim Sirketi",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:26+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:26+00:00",
+    "ms": 1816,
+    "data": {
+     "exit_ip": "88.247.31.164"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:36+00:00",
+    "ms": 2748,
+    "data": {
+     "exit_ip": "88.247.31.164",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:45+00:00",
+    "ms": 709,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:51+00:00",
+    "ms": 6277,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://88.247.31.164:4153",
+  "sites": {},
+  "streak": 1,
+  "first_seen": "2026-09-26T22:32:14+00:00",
+  "uptime_24h": 24,
+  "uptime_7d": 39,
+  "twitch": {
+   "usher": true,
+   "country": "TR",
+   "exit_ip": "88.247.31.164"
+  },
+  "twitch_country": "TR"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "41.223.234.116:37259",
+  "latency": 1974,
+  "exit_ip": "41.223.234.116",
+  "https": true,
+  "anonymity": "elite",
+  "country": "BF",
+  "targets": {},
+  "asn": 37008,
+  "org": "Sancfis Faso SA",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:30+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 1974,
+    "data": {
+     "exit_ip": "41.223.234.116"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:31+00:00",
+    "ms": 1263,
+    "data": {
+     "exit_ip": "41.223.234.116",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:35+00:00",
+    "ms": 4005,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:38+00:00",
+    "ms": 3379,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://41.223.234.116:37259",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-09-27T02:45:30+00:00",
+  "uptime_24h": 24,
+  "uptime_7d": 23,
+  "twitch": {
+   "usher": true,
+   "country": "BF",
+   "exit_ip": "41.223.234.116"
+  },
+  "twitch_country": "BF"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "45.74.31.46:16262",
+  "latency": 2403,
+  "exit_ip": "109.234.164.108",
+  "https": true,
+  "anonymity": "elite",
+  "country": "FR",
+  "targets": {},
+  "asn": 50474,
+  "org": "O2SWITCH SARL",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:23:10+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:23:10+00:00",
+    "ms": 2403,
+    "data": {
+     "exit_ip": "109.234.164.108"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:23:14+00:00",
+    "ms": 3996,
+    "data": {
+     "exit_ip": "109.234.164.108",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:23:18+00:00",
+    "ms": 4009,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:23:22+00:00",
+    "ms": 4192,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://45.74.31.46:16262",
+  "sites": {},
+  "streak": 1,
+  "first_seen": "2026-10-19T03:43:54+00:00",
+  "uptime_24h": 4,
+  "uptime_7d": 4,
+  "twitch": {
+   "usher": true,
+   "country": "FR",
+   "exit_ip": "109.234.164.108"
+  },
+  "twitch_country": "FR"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "117.102.115.156:4153",
+  "latency": 2436,
+  "exit_ip": "117.102.115.155",
+  "https": true,
+  "anonymity": "elite",
+  "country": "ID",
+  "targets": {},
+  "asn": 17451,
+  "org": "BIZNET NETWORKS",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:27+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:27+00:00",
+    "ms": 2436,
+    "data": {
+     "exit_ip": "117.102.115.155"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 1296,
+    "data": {
+     "exit_ip": "117.102.115.155",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:37+00:00",
+    "ms": 1306,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:41+00:00",
+    "ms": 4152,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://117.102.115.156:4153",
+  "sites": {
+   "google": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-09-27T01:47:28+00:00",
+  "uptime_24h": 12,
+  "uptime_7d": 22,
+  "twitch": {
+   "usher": true,
+   "country": "ID",
+   "exit_ip": "117.102.115.155"
+  },
+  "twitch_country": "ID"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "45.74.31.42:4103",
+  "latency": 3065,
+  "exit_ip": "14.248.80.79",
+  "https": true,
+  "anonymity": "elite",
+  "country": "VN",
+  "targets": {},
+  "asn": 45899,
+  "org": "VNPT Corp",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:46+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:46+00:00",
+    "ms": 3065,
+    "data": {
+     "exit_ip": "14.248.80.79"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:54+00:00",
+    "ms": 8289,
+    "data": {
+     "exit_ip": "14.248.80.79",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:23:00+00:00",
+    "ms": 5060,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:23:03+00:00",
+    "ms": 3663,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://45.74.31.42:4103",
+  "sites": {
+   "google": true,
+   "amazon": true,
+   "tiktok": false
+  },
+  "streak": 1,
+  "first_seen": "2026-10-30T20:03:47+00:00",
+  "uptime_24h": 4,
+  "uptime_7d": 3,
+  "twitch": {
+   "usher": true,
+   "country": "VN",
+   "exit_ip": "14.248.80.79"
+  },
+  "twitch_country": "VN"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "45.74.31.42:4109",
+  "latency": 7816,
+  "exit_ip": "14.248.80.79",
+  "https": true,
+  "anonymity": "elite",
+  "country": "VN",
+  "targets": {},
+  "asn": 45899,
+  "org": "VNPT Corp",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": 113,
+  "checked_at": "2026-11-21T19:22:44+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:44+00:00",
+    "ms": 7816,
+    "data": {
+     "exit_ip": "14.248.80.79"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:25:39+00:00",
+    "ms": 2424,
+    "data": {
+     "exit_ip": "14.248.80.79",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:25:42+00:00",
+    "ms": 2597,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:25:45+00:00",
+    "ms": 2909,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://45.74.31.42:4109",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false,
+   "discord": true
+  },
+  "streak": 1,
+  "first_seen": "2026-11-14T23:30:15+00:00",
+  "uptime_24h": 4,
+  "uptime_7d": 5,
+  "twitch": {
+   "usher": true,
+   "country": "VN",
+   "exit_ip": "14.248.80.79"
+  },
+  "twitch_country": "VN"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "85.92.153.46:1080",
+  "latency": 3751,
+  "exit_ip": "85.92.153.122",
+  "https": true,
+  "anonymity": "elite",
+  "country": "NL",
+  "targets": {},
+  "asn": 0,
+  "org": "",
+  "hosting": null,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:42+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:42+00:00",
+    "ms": 3751,
+    "data": {
+     "exit_ip": "85.92.153.122"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:48+00:00",
+    "ms": 6098,
+    "data": {
+     "exit_ip": "85.92.153.122",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:54+00:00",
+    "ms": 6635,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:23:01+00:00",
+    "ms": 6456,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://85.92.153.46:1080",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": false,
+   "tiktok": true
+  },
+  "streak": 1,
+  "first_seen": "2026-11-20T20:28:13+00:00",
+  "uptime_24h": 12,
+  "uptime_7d": 2,
+  "twitch": {
+   "usher": true,
+   "country": "NL",
+   "exit_ip": "85.92.153.122"
+  },
+  "twitch_country": "NL"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "45.74.31.40:4033",
+  "latency": 6479,
+  "exit_ip": "20.15.145.84",
+  "https": true,
+  "anonymity": "elite",
+  "country": "US",
+  "targets": {},
+  "asn": 8075,
+  "org": "Microsoft Corporation",
+  "hosting": true,
+  "blocklisted": false,
+  "speed_kbps": 39,
+  "checked_at": "2026-11-21T19:22:49+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:49+00:00",
+    "ms": 6479,
+    "data": {
+     "exit_ip": "20.15.145.84"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:25:49+00:00",
+    "ms": 5126,
+    "data": {
+     "exit_ip": "20.15.145.84",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:25:58+00:00",
+    "ms": 8825,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:26:05+00:00",
+    "ms": 6904,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://45.74.31.40:4033",
+  "sites": {},
+  "streak": 1,
+  "first_seen": "2026-10-09T07:48:14+00:00",
+  "uptime_24h": 4,
+  "uptime_7d": 2,
+  "twitch": {
+   "usher": true,
+   "country": "US",
+   "exit_ip": "48.214.177.47"
+  },
+  "twitch_country": "US"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "45.74.31.47:4249",
+  "latency": 4173,
+  "exit_ip": "14.248.80.79",
+  "https": true,
+  "anonymity": "elite",
+  "country": "VN",
+  "targets": {},
+  "asn": 45899,
+  "org": "VNPT Corp",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:28+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:28+00:00",
+    "ms": 4173,
+    "data": {
+     "exit_ip": "14.248.80.79"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:50+00:00",
+    "ms": 8240,
+    "data": {
+     "exit_ip": "14.248.80.79",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:59+00:00",
+    "ms": 9048,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:23:03+00:00",
+    "ms": 3686,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://45.74.31.47:4249",
+  "sites": {},
+  "streak": 1,
+  "first_seen": "2026-09-27T17:59:54+00:00",
+  "uptime_24h": 8,
+  "uptime_7d": 4,
+  "twitch": {
+   "usher": true,
+   "country": "VN",
+   "exit_ip": "14.248.80.79"
+  },
+  "twitch_country": "VN"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "45.74.31.46:4162",
+  "latency": 4193,
+  "exit_ip": "14.248.80.79",
+  "https": true,
+  "anonymity": "elite",
+  "country": "VN",
+  "targets": {},
+  "asn": 45899,
+  "org": "VNPT Corp",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:40+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:40+00:00",
+    "ms": 4193,
+    "data": {
+     "exit_ip": "14.248.80.79"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:44+00:00",
+    "ms": 3975,
+    "data": {
+     "exit_ip": "14.248.80.79",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:48+00:00",
+    "ms": 2928,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:51+00:00",
+    "ms": 3500,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://45.74.31.46:4162",
+  "sites": {},
+  "streak": 1,
+  "first_seen": "2026-11-15T03:44:40+00:00",
+  "uptime_24h": 4,
+  "uptime_7d": 9,
+  "twitch": {
+   "usher": true,
+   "country": "VN",
+   "exit_ip": "14.248.80.79"
+  },
+  "twitch_country": "VN"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "95.31.115.101:9150",
+  "latency": 7980,
+  "exit_ip": "185.129.61.3",
+  "https": true,
+  "anonymity": "elite",
+  "country": "DK",
+  "targets": {},
+  "asn": 210731,
+  "org": "Forening for DotSrc",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 74,
+  "checked_at": "2026-11-21T19:22:32+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:32+00:00",
+    "ms": 7980,
+    "data": {
+     "exit_ip": "185.129.61.3"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:37+00:00",
+    "ms": 4308,
+    "data": {
+     "exit_ip": "185.129.61.3",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:38+00:00",
+    "ms": 1207,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:40+00:00",
+    "ms": 1772,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://95.31.115.101:9150",
+  "sites": {},
+  "streak": 1,
+  "first_seen": "2026-11-10T03:40:12+00:00",
+  "uptime_24h": 80,
+  "uptime_7d": 77,
+  "twitch": {
+   "usher": true,
+   "country": "NL",
+   "exit_ip": "192.42.116.92"
+  },
+  "twitch_country": "NL"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "95.31.115.101:9150",
+  "latency": 7988,
+  "exit_ip": "185.129.61.3",
+  "https": true,
+  "anonymity": "elite",
+  "country": "DK",
+  "targets": {},
+  "asn": 210731,
+  "org": "Forening for DotSrc",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": 66,
+  "checked_at": "2026-11-21T19:22:32+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:32+00:00",
+    "ms": 7988,
+    "data": {
+     "exit_ip": "185.129.61.3"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:37+00:00",
+    "ms": 4166,
+    "data": {
+     "exit_ip": "185.129.61.3",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:38+00:00",
+    "ms": 1541,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:40+00:00",
+    "ms": 1981,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://95.31.115.101:9150",
+  "sites": {},
+  "streak": 1,
+  "first_seen": "2026-11-10T03:40:12+00:00",
+  "uptime_24h": 80,
+  "uptime_7d": 76,
+  "twitch": {
+   "usher": true,
+   "country": "NL",
+   "exit_ip": "192.42.116.92"
+  },
+  "twitch_country": "NL"
+ },
+ {
+  "ptype": "socks4",
+  "proxy": "41.70.106.1:5678",
+  "latency": 4544,
+  "exit_ip": "41.70.9.10",
+  "https": true,
+  "anonymity": "elite",
+  "country": "MW",
+  "targets": {},
+  "asn": 37215,
+  "org": "Malawi Research and Education Network - MAREN",
+  "hosting": false,
+  "blocklisted": true,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:29+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:29+00:00",
+    "ms": 4544,
+    "data": {
+     "exit_ip": "41.70.9.10"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:35+00:00",
+    "ms": 5526,
+    "data": {
+     "exit_ip": "41.70.9.10",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:46+00:00",
+    "ms": 3684,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:54+00:00",
+    "ms": 7686,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks4://41.70.106.1:5678",
+  "sites": {
+   "tiktok": false
+  },
+  "streak": 1,
+  "first_seen": "2026-11-04T15:26:17+00:00",
+  "uptime_24h": 12,
+  "uptime_7d": 14,
+  "twitch": {
+   "usher": true,
+   "country": "MW",
+   "exit_ip": "41.70.9.10"
+  },
+  "twitch_country": "MW"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "45.74.31.47:4120",
+  "latency": 5285,
+  "exit_ip": "14.248.80.79",
+  "https": true,
+  "anonymity": "elite",
+  "country": "VN",
+  "targets": {},
+  "asn": 45899,
+  "org": "VNPT Corp",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:30+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:30+00:00",
+    "ms": 5285,
+    "data": {
+     "exit_ip": "14.248.80.79"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:31+00:00",
+    "ms": 1591,
+    "data": {
+     "exit_ip": "14.248.80.79",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:22:43+00:00",
+    "ms": 4313,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:22:46+00:00",
+    "ms": 3013,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://45.74.31.47:4120",
+  "sites": {},
+  "streak": 1,
+  "first_seen": "2026-10-30T09:29:39+00:00",
+  "uptime_24h": 16,
+  "uptime_7d": 4,
+  "twitch": {
+   "usher": true,
+   "country": "VN",
+   "exit_ip": "14.248.80.79"
+  },
+  "twitch_country": "VN"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "45.74.31.41:4098",
+  "latency": 5294,
+  "exit_ip": "14.248.80.79",
+  "https": true,
+  "anonymity": "elite",
+  "country": "VN",
+  "targets": {},
+  "asn": 45899,
+  "org": "VNPT Corp",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:57+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:57+00:00",
+    "ms": 5294,
+    "data": {
+     "exit_ip": "14.248.80.79"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:25:58+00:00",
+    "ms": 6802,
+    "data": {
+     "exit_ip": "14.248.80.79",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:26:04+00:00",
+    "ms": 5964,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:26:07+00:00",
+    "ms": 3557,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://45.74.31.41:4098",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "instagram": true
+  },
+  "streak": 1,
+  "first_seen": "2026-10-25T02:44:07+00:00",
+  "uptime_24h": 4,
+  "uptime_7d": 5,
+  "twitch": {
+   "usher": true,
+   "country": "VN",
+   "exit_ip": "14.248.80.79"
+  },
+  "twitch_country": "VN"
+ },
+ {
+  "ptype": "http",
+  "proxy": "103.172.70.27:9090",
+  "latency": 6789,
+  "exit_ip": "172.11.3.1",
+  "https": true,
+  "anonymity": "anonymous",
+  "country": "US",
+  "targets": {},
+  "asn": 7018,
+  "org": "AT&T Enterprises, LLC",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:47+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:47+00:00",
+    "ms": 6789,
+    "data": {
+     "exit_ip": "172.11.3.1"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:22:58+00:00",
+    "ms": 2700,
+    "data": {
+     "exit_ip": "172.11.3.1",
+     "anonymity": "anonymous"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:23:00+00:00",
+    "ms": 2767,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:23:08+00:00",
+    "ms": 7853,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "http://103.172.70.27:9090",
+  "sites": {},
+  "streak": 1,
+  "first_seen": "2026-11-11T08:38:20+00:00",
+  "uptime_24h": 12,
+  "uptime_7d": 10,
+  "twitch": {
+   "usher": true,
+   "country": "ID",
+   "exit_ip": "38.253.240.94"
+  },
+  "twitch_country": "ID"
+ },
+ {
+  "ptype": "socks5",
+  "proxy": "45.74.31.41:4121",
+  "latency": 7026,
+  "exit_ip": "14.248.80.79",
+  "https": true,
+  "anonymity": "elite",
+  "country": "VN",
+  "targets": {},
+  "asn": 45899,
+  "org": "VNPT Corp",
+  "hosting": false,
+  "blocklisted": false,
+  "speed_kbps": null,
+  "checked_at": "2026-11-21T19:22:49+00:00",
+  "checks": {
+   "basic": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:80",
+    "at": "2026-11-21T19:22:49+00:00",
+    "ms": 7026,
+    "data": {
+     "exit_ip": "14.248.80.79"
+    }
+   },
+   "confirm": {
+    "state": "passed",
+    "target": "httpbin.org:80",
+    "at": "2026-11-21T19:25:46+00:00",
+    "ms": 9107,
+    "data": {
+     "exit_ip": "14.248.80.79",
+     "anonymity": "elite"
+    }
+   },
+   "content": {
+    "state": "passed",
+    "target": "httpbin.org:80/html",
+    "at": "2026-11-21T19:25:51+00:00",
+    "ms": 4978,
+    "data": {
+     "bytes": 3741
+    }
+   },
+   "https": {
+    "state": "passed",
+    "target": "checkip.amazonaws.com:443",
+    "at": "2026-11-21T19:25:55+00:00",
+    "ms": 3566,
+    "limits": "a verified TLS connection to this one host worked through the proxy at this time – it says nothing about other sites, later requests or who runs the proxy"
+   }
+  },
+  "url": "socks5://45.74.31.41:4121",
+  "sites": {
+   "google": true,
+   "reddit": true,
+   "amazon": true,
+   "instagram": true,
+   "tiktok": false
+  },
+  "streak": 1,
+  "first_seen": "2026-10-29T00:53:00+00:00",
+  "uptime_24h": 4,
+  "uptime_7d": 4,
+  "twitch": {
+   "usher": true,
+   "country": "VN",
+   "exit_ip": "14.248.80.79"
+  },
+  "twitch_country": "VN"
+ }
+]
